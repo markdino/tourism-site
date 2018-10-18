@@ -3,7 +3,7 @@ import { Jumbotron } from "reactstrap";
 import "../App.css";
 const Hero = () => (
   <div>
-    <main className="cover-page">
+    <main className="cover-page" id="hero">
       <Jumbotron className="text-center">
         <h1>Manila Tourism</h1>
         <h3>Tours | Travel | Guide</h3>

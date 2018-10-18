@@ -1,4 +1,10 @@
 .cover-page {
   height: 100vh;
-  background: pink;
+  /* background: pink; */
+}
+
+#hero {
+  background: url("./img/bg.png") center center;
+  background-size: cover;
+  background-attachment: fixed;
 }
