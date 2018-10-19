@@ -27,7 +27,7 @@ class NavbarMain extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="dark" dark expand="md">
+        <Navbar color="faded" dark expand="md" fixed={`top`}>
           <Container>
             <NavbarBrand href="/">Manila Tourism</NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
