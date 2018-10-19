@@ -1,0 +1,34 @@
+.cover-page {
+  height: 100vh;
+  /* background: pink; */
+}
+
+#hero {
+  background: url("./img/bg.png") center center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+#hero h1 {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+}
+
+.wrapped-page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.item-center {
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
