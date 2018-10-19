@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import NavbarMain from "./components/Navbar";
 import Hero from "./components/Hero";
+import MainCarousel from "./components/Carousel";
 
 class App extends Component {
   render() {
@@ -9,6 +10,7 @@ class App extends Component {
       <div className="App">
         <NavbarMain />
         <Hero />
+        <MainCarousel />
       </div>
     );
   }
