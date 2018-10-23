@@ -13,8 +13,6 @@ import {
 } from "reactstrap";
 
 const items = [
-  
-  
   {
     src: resort,
     altText: "Slide 1",
