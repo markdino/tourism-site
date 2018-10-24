@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import beach from "../img/beach.jpg";
-import rock from "../img/rock.jpg";
 import resort from "../img/resort.jpg";
 import camp from "../img/camp.jpg";
 import mountain from "../img/mountain.jpg";
+import gulp from "../img/gulp.jpg";
 import {
   Carousel,
   CarouselItem,
@@ -13,15 +13,13 @@ import {
 } from "reactstrap";
 
 const items = [
-  
-  
   {
     src: resort,
     altText: "Slide 1",
     caption: "Resorts"
   },
   {
-    src: rock,
+    src: gulp,
     altText: "Slide 2",
     caption: "Rock Climbing"
   },
@@ -96,7 +94,7 @@ class MainCarousel extends Component {
         >
           <img src={item.src} alt={item.altText} className="img-carousel" />
           <CarouselCaption
-            captionText={item.caption}
+            captionText={item.altText}
             captionHeader={item.caption}
           />
         </CarouselItem>
