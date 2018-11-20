@@ -29,12 +29,12 @@ class NavbarMain extends React.Component {
       <div>
         <Navbar color="faded" dark expand="md" fixed={`top`}>
           <Container>
-            <NavbarBrand href="/">Manila Tourism</NavbarBrand>
+            <NavbarBrand href="#">Manila Tourism</NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
                 <NavItem>
-                  <NavLink href="#">About</NavLink>
+                  <NavLink href="#mainCarousel">About</NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink href="#">Package</NavLink>
