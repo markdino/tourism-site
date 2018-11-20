@@ -7,7 +7,8 @@ import {
   Nav,
   NavItem,
   NavLink,
-  Container
+  Container,
+  Button
 } from "reactstrap";
 import "../App.css";
 
@@ -52,6 +53,7 @@ class NavbarMain extends React.Component {
                 <NavItem>
                   <NavLink href="#">Contact</NavLink>
                 </NavItem>
+                <Button color="success">Login</Button>{" "}
               </Nav>
             </Collapse>
           </Container>
