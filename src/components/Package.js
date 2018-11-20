@@ -8,7 +8,8 @@ import {
   CardBody,
   CardTitle,
   CardSubtitle,
-  CardText
+  CardText,
+  Badge
 } from "reactstrap";
 import "../App.css";
 import beach from "../img/beach.jpg";
@@ -26,7 +27,19 @@ class Package extends React.Component {
             <h1>Tour Packages</h1>
             <p>A Great Collection of Our Tour Packages</p>
           </header>
-          <section>
+          <section className="packageBody text-center">
+            <Badge href="#" color="dark">
+              All
+            </Badge>
+            <Badge href="#" color="light">
+              Beach
+            </Badge>
+            <Badge href="#" color="light">
+              Mountain
+            </Badge>
+            <Badge href="#" color="light">
+              Resort
+            </Badge>
             <Row>
               <Col sm="4">
                 <Card>

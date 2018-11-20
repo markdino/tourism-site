@@ -70,3 +70,7 @@
 .card {
   margin: 10px 0px;
 }
+
+.packageBody .badge {
+  margin: 0px 5px;
+}
