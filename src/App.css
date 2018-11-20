@@ -3,6 +3,10 @@
   /* background: pink; */
 }
 
+.navDark {
+  background: rgba(0, 0, 0, 0.6);
+}
+
 #hero {
   background: url("./img/bg.png") center center;
   background-size: cover;
