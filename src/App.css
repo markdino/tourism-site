@@ -66,3 +66,11 @@
   color: rgb(255, 239, 16);
   text-shadow: 2px 2px 5px black;
 }
+
+.card {
+  margin: 10px 0px;
+}
+
+.packageBody .badge {
+  margin: 0px 5px;
+}
