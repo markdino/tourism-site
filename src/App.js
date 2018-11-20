@@ -10,7 +10,9 @@ class App extends Component {
       <div className="App">
         <NavbarMain />
         <Hero />
-        <MainCarousel />
+        <div id="mainCarousel">
+          <MainCarousel />
+        </div>
       </div>
     );
   }
