@@ -66,3 +66,7 @@
   color: rgb(255, 239, 16);
   text-shadow: 2px 2px 5px black;
 }
+
+.card {
+  margin: 10px 0px;
+}
