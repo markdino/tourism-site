@@ -16,6 +16,9 @@
   color: #fdd86a !important;
 }
 
+.subComponent {
+  padding: 50px 0px;
+}
 #hero {
   background: url("./img/bg.png") center center;
   background-size: cover;
