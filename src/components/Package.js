@@ -21,11 +21,11 @@ import imgCard6 from "../img/img-card (6).jpg";
 import imgCard7 from "../img/img-card (7).jpg";
 import imgCard8 from "../img/img-card (8).jpg";
 import imgCard9 from "../img/img-card (9).jpg";
-import imgCard10 from "../img/img-card (10).jpg";
+import imgCard10 from "../img/img-card (10).JPG";
 import imgCard11 from "../img/img-card (11).jpg";
 import imgCard12 from "../img/img-card (12).jpg";
 
-class Package extends React.Component {
+class Package extends Component {
   render() {
     return (
       <div className="subComponent">
