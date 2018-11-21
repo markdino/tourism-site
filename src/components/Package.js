@@ -21,7 +21,7 @@ import gulp from "../img/gulp.jpg";
 class Package extends React.Component {
   render() {
     return (
-      <div>
+      <div className="subComponent">
         <Container>
           <header className="headerTitle text-center">
             <h1>Tour Packages</h1>
@@ -40,7 +40,7 @@ class Package extends React.Component {
             <Badge href="#" color="light">
               Resort
             </Badge>
-            <Row>
+            <Row className="text-left">
               <Col sm="4">
                 <Card>
                   <CardImg top width="100%" src={beach} alt="Card image cap" />
