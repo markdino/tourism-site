@@ -8,15 +8,22 @@ import {
   CardBody,
   CardTitle,
   CardSubtitle,
-  CardText,
+  Button,
   Badge
 } from "reactstrap";
 import "../App.css";
-import beach from "../img/beach.jpg";
-import resort from "../img/resort.jpg";
-import camp from "../img/camp.jpg";
-import mountain from "../img/mountain.jpg";
-import gulp from "../img/gulp.jpg";
+import imgCard1 from "../img/img-card (1).jpg";
+import imgCard2 from "../img/img-card (2).jpg";
+import imgCard3 from "../img/img-card (3).jpg";
+import imgCard4 from "../img/img-card (4).jpg";
+import imgCard5 from "../img/img-card (5).jpg";
+import imgCard6 from "../img/img-card (6).jpg";
+import imgCard7 from "../img/img-card (7).jpg";
+import imgCard8 from "../img/img-card (8).jpg";
+import imgCard9 from "../img/img-card (9).jpg";
+import imgCard10 from "../img/img-card (10).jpg";
+import imgCard11 from "../img/img-card (11).jpg";
+import imgCard12 from "../img/img-card (12).jpg";
 
 class Package extends React.Component {
   render() {
@@ -40,74 +47,163 @@ class Package extends React.Component {
             <Badge href="#" color="light">
               Resort
             </Badge>
+            <Badge href="#" color="light">
+              Camping
+            </Badge>
+            <Badge href="#" color="light">
+              Honeymoon
+            </Badge>
             <Row className="text-left">
-              <Col sm="4">
-                <Card>
-                  <CardImg top width="100%" src={beach} alt="Card image cap" />
-                  <CardBody>
-                    <CardTitle>Card title</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
-                    <CardText>
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </CardText>
-                  </CardBody>
-                </Card>
-              </Col>
-              <Col sm="4">
-                <Card>
-                  <CardImg top width="100%" src={gulp} alt="Card image cap" />
-                  <CardBody>
-                    <CardTitle>Card title</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
-                    <CardText>
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </CardText>
-                  </CardBody>
-                </Card>
-              </Col>
-              <Col sm="4">
-                <Card>
-                  <CardImg top width="100%" src={resort} alt="Card image cap" />
-                  <CardBody>
-                    <CardTitle>Card title</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
-                    <CardText>
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </CardText>
-                  </CardBody>
-                </Card>
-              </Col>
-              <Col sm="4">
+              <Col md="4" sm="6">
                 <Card>
                   <CardImg
                     top
                     width="100%"
-                    src={mountain}
+                    src={imgCard1}
                     alt="Card image cap"
                   />
                   <CardBody>
                     <CardTitle>Card title</CardTitle>
                     <CardSubtitle>Card subtitle</CardSubtitle>
-                    <CardText>
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </CardText>
+                    <Button color="secondary" className="float-right">
+                      Read more
+                    </Button>
                   </CardBody>
                 </Card>
               </Col>
-              <Col sm="4">
+              <Col md="4" sm="6">
                 <Card>
-                  <CardImg top width="100%" src={camp} alt="Card image cap" />
+                  <CardImg
+                    top
+                    width="100%"
+                    src={imgCard2}
+                    alt="Card image cap"
+                  />
                   <CardBody>
                     <CardTitle>Card title</CardTitle>
                     <CardSubtitle>Card subtitle</CardSubtitle>
-                    <CardText>
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </CardText>
+                    <Button color="secondary" className="float-right">
+                      Read more
+                    </Button>
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col md="4" sm="6">
+                <Card>
+                  <CardImg
+                    top
+                    width="100%"
+                    src={imgCard3}
+                    alt="Card image cap"
+                  />
+                  <CardBody>
+                    <CardTitle>Card title</CardTitle>
+                    <CardSubtitle>Card subtitle</CardSubtitle>
+                    <Button color="secondary" className="float-right">
+                      Read more
+                    </Button>
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col md="4" sm="6">
+                <Card>
+                  <CardImg
+                    top
+                    width="100%"
+                    src={imgCard4}
+                    alt="Card image cap"
+                  />
+                  <CardBody>
+                    <CardTitle>Card title</CardTitle>
+                    <CardSubtitle>Card subtitle</CardSubtitle>
+                    <Button color="secondary" className="float-right">
+                      Read more
+                    </Button>
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col md="4" sm="6">
+                <Card>
+                  <CardImg
+                    top
+                    width="100%"
+                    src={imgCard5}
+                    alt="Card image cap"
+                  />
+                  <CardBody>
+                    <CardTitle>Card title</CardTitle>
+                    <CardSubtitle>Card subtitle</CardSubtitle>
+                    <Button color="secondary" className="float-right">
+                      Read more
+                    </Button>
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col md="4" sm="6">
+                <Card>
+                  <CardImg
+                    top
+                    width="100%"
+                    src={imgCard6}
+                    alt="Card image cap"
+                  />
+                  <CardBody>
+                    <CardTitle>Card title</CardTitle>
+                    <CardSubtitle>Card subtitle</CardSubtitle>
+                    <Button color="secondary" className="float-right">
+                      Read more
+                    </Button>
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col md="4" sm="6">
+                <Card>
+                  <CardImg
+                    top
+                    width="100%"
+                    src={imgCard7}
+                    alt="Card image cap"
+                  />
+                  <CardBody>
+                    <CardTitle>Card title</CardTitle>
+                    <CardSubtitle>Card subtitle</CardSubtitle>
+                    <Button color="secondary" className="float-right">
+                      Read more
+                    </Button>
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col md="4" sm="6">
+                <Card>
+                  <CardImg
+                    top
+                    width="100%"
+                    src={imgCard8}
+                    alt="Card image cap"
+                  />
+                  <CardBody>
+                    <CardTitle>Card title</CardTitle>
+                    <CardSubtitle>Card subtitle</CardSubtitle>
+                    <Button color="secondary" className="float-right">
+                      Read more
+                    </Button>
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col md="4" sm="6">
+                <Card>
+                  <CardImg
+                    top
+                    width="100%"
+                    src={imgCard9}
+                    alt="Card image cap"
+                  />
+                  <CardBody>
+                    <CardTitle>Card title</CardTitle>
+                    <CardSubtitle>Card subtitle</CardSubtitle>
+                    <Button color="secondary" className="float-right">
+                      Read more
+                    </Button>
                   </CardBody>
                 </Card>
               </Col>
