@@ -74,6 +74,9 @@
   margin: 10px 0px;
 }
 
+.card-body .btn {
+  margin: 10px 0px !important;
+}
 @media (min-width: 384px) {
   .card-columns {
     margin: 0px 20px;
