@@ -16,6 +16,9 @@
   color: #fdd86a !important;
 }
 
+.subComponent {
+  padding: 50px 0px;
+}
 #hero {
   background: url("./img/bg.png") center center;
   background-size: cover;
@@ -69,6 +72,31 @@
 
 .card {
   margin: 10px 0px;
+}
+
+.card-body .btn {
+  margin: 10px 0px !important;
+}
+@media (min-width: 384px) {
+  .card-columns {
+    margin: 0px 20px;
+  }
+}
+
+@media (min-width: 576px) {
+  .card-columns {
+    -webkit-column-count: 2 !important;
+    -moz-column-count: 2 !important;
+    column-count: 2 !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-columns {
+    -webkit-column-count: 3 !important;
+    -moz-column-count: 3 !important;
+    column-count: 3 !important;
+  }
 }
 
 .packageBody .badge {
