@@ -77,7 +77,7 @@
 .card-body .btn {
   margin: 10px 0px !important;
 }
-@media (min-width: 384px) {
+@media (min-width: 284px) {
   .card-columns {
     margin: 0px 20px;
   }
@@ -91,7 +91,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 986px) {
   .card-columns {
     -webkit-column-count: 3 !important;
     -moz-column-count: 3 !important;
