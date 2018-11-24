@@ -15,6 +15,7 @@ import imgCard9 from "../img/img-card (9).jpg";
 const tours = [
   {
     id: 1,
+    category: "resort honeymoon",
     img: imgCard1,
     alt: "blah blah",
     title: "Marsan",
@@ -22,6 +23,7 @@ const tours = [
   },
   {
     id: 2,
+    category: "climbing",
     img: imgCard2,
     alt: "blah blah",
     title: "Tabok",
@@ -29,6 +31,7 @@ const tours = [
   },
   {
     id: 3,
+    category: "beach climbing",
     img: imgCard3,
     alt: "blah blah",
     title: "Tabok",
@@ -36,6 +39,7 @@ const tours = [
   },
   {
     id: 4,
+    category: "beach mountain",
     img: imgCard4,
     alt: "blah blah",
     title: "Tabok",
@@ -43,6 +47,7 @@ const tours = [
   },
   {
     id: 5,
+    category: "resort honeymoon",
     img: imgCard5,
     alt: "blah blah",
     title: "Tabok",
@@ -50,6 +55,7 @@ const tours = [
   },
   {
     id: 6,
+    category: "beach honeymoon resort",
     img: imgCard6,
     alt: "blah blah",
     title: "Tabok",
@@ -57,6 +63,7 @@ const tours = [
   },
   {
     id: 7,
+    category: "resort honeymoon",
     img: imgCard7,
     alt: "blah blah",
     title: "Tabok",
@@ -64,6 +71,7 @@ const tours = [
   },
   {
     id: 8,
+    category: "climbing",
     img: imgCard8,
     alt: "blah blah",
     title: "Tabok",
@@ -71,6 +79,7 @@ const tours = [
   },
   {
     id: 9,
+    category: "beach resort",
     img: imgCard9,
     alt: "blah blah",
     title: "Tabok",
@@ -108,6 +117,9 @@ class Package extends Component {
             </Badge>
             <Badge href="#" color="light">
               Resort
+            </Badge>
+            <Badge href="#" color="light">
+              Climbing
             </Badge>
             <Badge href="#" color="light">
               Camping
