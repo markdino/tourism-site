@@ -1,16 +1,6 @@
 import React, { Component } from "react";
-import {
-  Container,
-  Row,
-  CardColumns,
-  Card,
-  CardImg,
-  CardBody,
-  CardTitle,
-  CardSubtitle,
-  Button,
-  Badge
-} from "reactstrap";
+import { Container, Row, CardColumns, Badge } from "reactstrap";
+import TourCard from "./TourCard";
 import "../App.css";
 import imgCard1 from "../img/img-card (1).jpg";
 import imgCard2 from "../img/img-card (2).jpg";
@@ -22,8 +12,83 @@ import imgCard7 from "../img/img-card (7).jpg";
 import imgCard8 from "../img/img-card (8).jpg";
 import imgCard9 from "../img/img-card (9).jpg";
 
+const tours = [
+  {
+    id: 1,
+    img: imgCard1,
+    alt: "blah blah",
+    title: "Marsan",
+    subtitle: "white Beach"
+  },
+  {
+    id: 2,
+    img: imgCard2,
+    alt: "blah blah",
+    title: "Tabok",
+    subtitle: "white Beach"
+  },
+  {
+    id: 3,
+    img: imgCard3,
+    alt: "blah blah",
+    title: "Tabok",
+    subtitle: "white Beach"
+  },
+  {
+    id: 4,
+    img: imgCard4,
+    alt: "blah blah",
+    title: "Tabok",
+    subtitle: "white Beach"
+  },
+  {
+    id: 5,
+    img: imgCard5,
+    alt: "blah blah",
+    title: "Tabok",
+    subtitle: "white Beach"
+  },
+  {
+    id: 6,
+    img: imgCard6,
+    alt: "blah blah",
+    title: "Tabok",
+    subtitle: "white Beach"
+  },
+  {
+    id: 7,
+    img: imgCard7,
+    alt: "blah blah",
+    title: "Tabok",
+    subtitle: "white Beach"
+  },
+  {
+    id: 8,
+    img: imgCard8,
+    alt: "blah blah",
+    title: "Tabok",
+    subtitle: "white Beach"
+  },
+  {
+    id: 9,
+    img: imgCard9,
+    alt: "blah blah",
+    title: "Tabok",
+    subtitle: "white Beach"
+  }
+];
+
 class Package extends Component {
+  state = {
+    cards: []
+  };
+
+  componentDidMount() {
+    this.setState({ cards: tours });
+  }
+
   render() {
+    const { cards } = this.state;
     return (
       <div className="subComponent">
         <Container>
@@ -52,149 +117,9 @@ class Package extends Component {
             </Badge>
             <Row className="text-left">
               <CardColumns md="4" sm="6">
-                <Card>
-                  <CardImg
-                    top
-                    width="100%"
-                    src={imgCard1}
-                    alt="Card image cap"
-                  />
-                  <CardBody>
-                    <CardTitle>Card title</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
-                    <Button color="secondary" className="float-right">
-                      Read more
-                    </Button>
-                  </CardBody>
-                </Card>
-
-                <Card>
-                  <CardImg
-                    top
-                    width="100%"
-                    src={imgCard2}
-                    alt="Card image cap"
-                  />
-                  <CardBody>
-                    <CardTitle>Card title</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
-                    <Button color="secondary" className="float-right">
-                      Read more
-                    </Button>
-                  </CardBody>
-                </Card>
-
-                <Card>
-                  <CardImg
-                    top
-                    width="100%"
-                    src={imgCard3}
-                    alt="Card image cap"
-                  />
-                  <CardBody>
-                    <CardTitle>Card title</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
-                    <Button color="secondary" className="float-right">
-                      Read more
-                    </Button>
-                  </CardBody>
-                </Card>
-
-                <Card>
-                  <CardImg
-                    top
-                    width="100%"
-                    src={imgCard4}
-                    alt="Card image cap"
-                  />
-                  <CardBody>
-                    <CardTitle>Card title</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
-                    <Button color="secondary" className="float-right">
-                      Read more
-                    </Button>
-                  </CardBody>
-                </Card>
-
-                <Card>
-                  <CardImg
-                    top
-                    width="100%"
-                    src={imgCard5}
-                    alt="Card image cap"
-                  />
-                  <CardBody>
-                    <CardTitle>Card title</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
-                    <Button color="secondary" className="float-right">
-                      Read more
-                    </Button>
-                  </CardBody>
-                </Card>
-
-                <Card>
-                  <CardImg
-                    top
-                    width="100%"
-                    src={imgCard6}
-                    alt="Card image cap"
-                  />
-                  <CardBody>
-                    <CardTitle>Card title</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
-                    <Button color="secondary" className="float-right">
-                      Read more
-                    </Button>
-                  </CardBody>
-                </Card>
-
-                <Card>
-                  <CardImg
-                    top
-                    width="100%"
-                    src={imgCard7}
-                    alt="Card image cap"
-                  />
-                  <CardBody>
-                    <CardTitle>Card title</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
-                    <Button color="secondary" className="float-right">
-                      Read more
-                    </Button>
-                  </CardBody>
-                </Card>
-
-                <Card>
-                  <CardImg
-                    top
-                    width="100%"
-                    src={imgCard8}
-                    alt="Card image cap"
-                  />
-                  <CardBody>
-                    <CardTitle>Card title</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
-                    <Button color="secondary" className="float-right">
-                      Read more
-                    </Button>
-                  </CardBody>
-                </Card>
-
-                <Card>
-                  <CardImg
-                    top
-                    width="100%"
-                    src={imgCard9}
-                    alt="Card image cap"
-                  />
-                  <CardBody>
-                    <CardTitle>Card title</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
-                    <Button color="secondary" className="float-right">
-                      Read more
-                    </Button>
-                  </CardBody>
-                </Card>
+                {cards.map(tourcard => (
+                  <TourCard key={tourcard.id} tourcard={tourcard} />
+                ))}
               </CardColumns>
             </Row>
           </section>
