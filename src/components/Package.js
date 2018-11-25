@@ -120,6 +120,7 @@ class Package extends Component {
             {itemCategories.map((badge, index) => (
               <Badge
                 key={index}
+                href=""
                 color={badge === category ? "dark" : "light"}
                 onClick={() => this.setState({ category: badge })}
               >
