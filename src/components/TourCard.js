@@ -10,9 +10,9 @@ import {
 import "../App.css";
 
 const TourCard = ({ tourcard }) => {
-  const { category, img, alt, title, subtitle } = tourcard;
+  const { img, alt, title, subtitle } = tourcard;
   return (
-    <Card className={category}>
+    <Card>
       <CardImg top width="100%" src={img} alt={alt} />
       <CardBody>
         <Button color="secondary" className="float-right">
