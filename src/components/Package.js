@@ -18,72 +18,72 @@ const tours = [
     category: ["resort", "honeymoon"],
     img: imgCard1,
     alt: "blah blah",
-    title: "Marsan",
-    subtitle: "white Beach"
+    title: "Seaside Resort",
+    subtitle: "Batangas Resort"
   },
   {
     id: 2,
-    category: ["climbing"],
+    category: ["beach", "mountain"],
     img: imgCard2,
     alt: "blah blah",
-    title: "Tabok",
-    subtitle: "white Beach"
+    title: "Isla de Gigantes",
+    subtitle: "Carles, Iloilo"
   },
   {
     id: 3,
-    category: ["beach", "climbing"],
+    category: ["resort", "honeymoon"],
     img: imgCard3,
     alt: "blah blah",
-    title: "Tabok",
-    subtitle: "white Beach"
+    title: "The Farm",
+    subtitle: "San Benito, Batangas"
   },
   {
     id: 4,
-    category: ["beach", "mountain"],
+    category: ["climbing", "mountain"],
     img: imgCard4,
     alt: "blah blah",
-    title: "Tabok",
-    subtitle: "white Beach"
+    title: "Poog",
+    subtitle: "Cebu"
   },
   {
     id: 5,
-    category: ["resort", "honeymoon"],
+    category: ["resort", "honeymoon", "beach"],
     img: imgCard5,
     alt: "blah blah",
-    title: "Tabok",
-    subtitle: "white Beach"
+    title: "Koro Sun Resort & Rainforest Spa",
+    subtitle: "Vanua Levu, Fiji"
   },
   {
     id: 6,
-    category: ["beach", "honeymoon", "resort"],
+    category: ["climbing", "mountain"],
     img: imgCard6,
     alt: "blah blah",
-    title: "Tabok",
-    subtitle: "white Beach"
+    title: "Pi Shan",
+    subtitle: "Yangshuo China"
   },
   {
     id: 7,
-    category: ["resort", "honeymoon"],
+    category: ["beach", "climbing"],
     img: imgCard7,
     alt: "blah blah",
-    title: "Tabok",
-    subtitle: "white Beach"
+    title: "El-Nido",
+    subtitle: "Palawan"
   },
   {
     id: 8,
-    category: ["climbing"],
+    category: ["honeymoon", "beach", "resort"],
     img: imgCard8,
     alt: "blah blah",
-    title: "Tabok",
-    subtitle: "white Beach"
+    title: "Shangri-La’s Boracay Resort and Spa",
+    subtitle: "Boracay Resort"
   },
   {
     id: 9,
     category: ["beach", "resort"],
     img: imgCard9,
     alt: "blah blah",
-    title: "Tabok",
-    subtitle: "white Beach"
+    title: "HUMANA Island Resort & Spa",
+    subtitle: "Palawan"
   }
 ];
 
