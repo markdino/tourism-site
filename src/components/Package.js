@@ -110,7 +110,7 @@ class Package extends Component {
   render() {
     const { cards, category } = this.state;
     return (
-      <div className="subComponent">
+      <div className="subComponent" id="packageBody">
         <Container>
           <header className="headerTitle text-center">
             <h1>Tour Packages</h1>

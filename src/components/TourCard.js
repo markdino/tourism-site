@@ -15,7 +15,7 @@ const TourCard = ({ tourcard }) => {
     <Card>
       <CardImg top width="100%" src={img} alt={alt} />
       <CardBody>
-        <Button color="secondary" className="float-right">
+        <Button outline color="secondary" className="float-right">
           Read more
         </Button>
         <CardTitle>{title}</CardTitle>
