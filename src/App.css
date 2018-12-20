@@ -74,6 +74,10 @@
   margin: 10px 0px;
 }
 
+.card-body {
+  background-color: rgb(245, 245, 245);
+}
+
 @media (min-width: 284px) {
   .card-columns {
     margin: 0px 20px;
