@@ -4,6 +4,7 @@ import NavbarMain from "./components/Navbar";
 import Hero from "./components/Hero";
 import MainCarousel from "./components/Carousel";
 import Package from "./components/Package";
+import Tour from "./components/Tour";
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         <div className="package">
           <Package />
         </div>
+        <Tour />
       </div>
     );
   }

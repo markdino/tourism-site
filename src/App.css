@@ -77,12 +77,13 @@
   margin: 10px 0px;
 }
 
-.card-body {
-}
-
 @media (min-width: 284px) {
   .card-columns {
     margin: 0px 20px;
+  }
+
+  .tour-msg {
+    margin: 0px 10px;
   }
 }
 
@@ -92,6 +93,10 @@
     -moz-column-count: 2 !important;
     column-count: 2 !important;
   }
+
+  .tour-msg {
+    margin: 0px 20px;
+  }
 }
 
 @media (min-width: 986px) {
@@ -100,10 +105,48 @@
     -moz-column-count: 3 !important;
     column-count: 3 !important;
   }
+
+  .tour-msg {
+    margin: 0px 50px;
+  }
 }
 
 .packageBody .badge {
   margin: 0px 5px;
   cursor: pointer;
   text-transform: capitalize;
+}
+
+.tour-cover {
+  width: 90%;
+  padding: 20px 10px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  margin: 50px auto;
+}
+
+.tour-cover img {
+  width: 100%;
+}
+
+.tour-gallery img {
+  width: 50%;
+  height: 100px;
+  object-fit: cover;
+  padding: 5px;
+}
+
+.tour-msg input,
+.tour-msg textarea {
+  width: 100%;
+  margin: 5px;
+  border: 1px solid #6c757d;
+  padding: 10px;
+  border-radius: 5px;
+  background: none;
+}
+
+.reviews {
+  background: #f1f1f1;
+  padding: 40px 0px 80px 0px;
+  margin: 0px;
 }

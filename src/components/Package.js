@@ -11,7 +11,7 @@ import imgCard6 from "../img/img-card (6).jpg";
 import imgCard7 from "../img/img-card (7).jpg";
 import imgCard8 from "../img/img-card (8).jpg";
 import imgCard9 from "../img/img-card (9).jpg";
-
+import imgBarobaybay from "../img/barobaybay.jpg";
 const tours = [
   {
     id: 1,
@@ -84,6 +84,14 @@ const tours = [
     alt: "blah blah",
     title: "HUMANA Island Resort & Spa",
     subtitle: "Palawan"
+  },
+  {
+    id: 10,
+    category: ["camping", "beach"],
+    img: imgBarobaybay,
+    alt: "camping in the lake",
+    title: "Barobaybay Camp Site",
+    subtitle: "Barobaybay, Lavezares N. Samar"
   }
 ];
 
