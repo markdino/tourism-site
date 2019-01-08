@@ -1,28 +1,19 @@
 import React, { Component } from "react";
 import "./App.css";
+import { Router, Link } from "@reach/router";
 import NavbarMain from "./components/Navbar";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Package from "./components/Package";
+import Home from "./components/Home";
 import Tour from "./components/Tour";
-import Services from "./components/Services";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <NavbarMain />
-        <Hero />
-        <div id="mainCarousel">
-          <About />
-        </div>
-        <div className="package">
-          <Package />
-        </div>
-        <div className="services">
-          <Services />
-        </div>
-        <Tour />
+        <Router>
+          <Home path="/" />
+          <Tour path="tour" />
+        </Router>
       </div>
     );
   }
