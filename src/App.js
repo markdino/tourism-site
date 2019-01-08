@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import NavbarMain from "./components/Navbar";
 import Hero from "./components/Hero";
-import MainCarousel from "./components/Carousel";
+import About from "./components/About";
 import Package from "./components/Package";
 import Tour from "./components/Tour";
 
@@ -13,7 +13,7 @@ class App extends Component {
         <NavbarMain />
         <Hero />
         <div id="mainCarousel">
-          <MainCarousel />
+          <About />
         </div>
         <div className="package">
           <Package />
