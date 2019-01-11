@@ -25,7 +25,7 @@
 }
 
 #hero {
-  background: url("./img/bg.png") center center;
+  background: url("./img/cover.jpg") top center;
   background-size: cover;
   background-attachment: fixed;
   color: white;
