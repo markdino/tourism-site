@@ -209,6 +209,19 @@
   color: rgba(0, 0, 0, 0.7);
 }
 
+#footerBody {
+  background: #383322;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#footerBody a {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#footerBody a:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .svg-card-2 {
   color: #ffffff;
   padding: 30px;
