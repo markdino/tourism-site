@@ -4,6 +4,7 @@ import Hero from "./Hero";
 import About from "./About";
 import Package from "./Package";
 import Services from "./Services";
+import Contact from "./Contact";
 
 class Home extends Component {
   render() {
@@ -13,6 +14,7 @@ class Home extends Component {
         <About />
         <Package />
         <Services />
+        <Contact />
       </div>
     );
   }
