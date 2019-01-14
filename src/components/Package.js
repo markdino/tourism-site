@@ -12,86 +12,108 @@ import imgCard7 from "../img/img-card (7).jpg";
 import imgCard8 from "../img/img-card (8).jpg";
 import imgCard9 from "../img/img-card (9).jpg";
 import imgBarobaybay from "../img/barobaybay.jpg";
+import lalaguna from "./tours/lalaguna-bay-mangrove-forest/img1.jpg";
+import imgtabok from "./tours/tabok/img1.jpg";
+
 const tours = [
   {
     id: 1,
+    category: ["scape"],
+    img: lalaguna,
+    alt: "blah blah",
+    title: "Lalaguna Bay Mangrove Forest",
+    subtitle: "San Isidro",
+    router: "lalaguna"
+  },
+  {
+    id: 2,
     category: ["resort", "honeymoon"],
     img: imgCard1,
     alt: "blah blah",
     title: "Seaside Resort",
-    subtitle: "Batangas Resort"
+    subtitle: "Batangas Resort",
+    router: "tour"
   },
   {
-    id: 2,
+    id: 3,
     category: ["beach", "mountain"],
     img: imgCard2,
     alt: "blah blah",
     title: "Isla de Gigantes",
-    subtitle: "Carles, Iloilo"
+    subtitle: "Carles, Iloilo",
+    router: "tour"
   },
   {
-    id: 3,
+    id: 4,
     category: ["resort", "honeymoon"],
     img: imgCard3,
     alt: "blah blah",
     title: "The Farm",
-    subtitle: "San Benito, Batangas"
-  },
-  {
-    id: 4,
-    category: ["climbing", "mountain"],
-    img: imgCard4,
-    alt: "blah blah",
-    title: "Poog",
-    subtitle: "Cebu"
+    subtitle: "San Benito, Batangas",
+    router: "tour"
   },
   {
     id: 5,
+    category: ["beach", "camping", "honeymoon"],
+    img: imgtabok,
+    alt: "blah blah",
+    title: "Tabok Beach Camping & Diving Resort",
+    subtitle: "Martinez Family",
+    router: "tabok"
+  },
+  {
+    id: 6,
     category: ["resort", "honeymoon", "beach"],
     img: imgCard5,
     alt: "blah blah",
     title: "Koro Sun Resort & Rainforest Spa",
-    subtitle: "Vanua Levu, Fiji"
+    subtitle: "Vanua Levu, Fiji",
+    router: "tour"
   },
   {
-    id: 6,
+    id: 7,
     category: ["climbing", "mountain"],
     img: imgCard6,
     alt: "blah blah",
     title: "Pi Shan",
-    subtitle: "Yangshuo China"
+    subtitle: "Yangshuo China",
+    router: "tour"
   },
   {
-    id: 7,
+    id: 8,
     category: ["beach", "climbing"],
     img: imgCard7,
     alt: "blah blah",
     title: "El-Nido",
-    subtitle: "Palawan"
+    subtitle: "Palawan",
+    router: "tour"
   },
   {
-    id: 8,
+    id: 9,
     category: ["honeymoon", "beach", "resort"],
     img: imgCard8,
     alt: "blah blah",
     title: "Shangri-La’s Boracay Resort and Spa",
-    subtitle: "Boracay Resort"
+    subtitle: "Boracay Resort",
+    router: "tour"
   },
   {
-    id: 9,
+    id: 10,
     category: ["beach", "resort"],
     img: imgCard9,
     alt: "blah blah",
     title: "HUMANA Island Resort & Spa",
-    subtitle: "Palawan"
+    subtitle: "Palawan",
+    router: "tour"
   },
   {
-    id: 10,
+    id: 11,
     category: ["camping", "beach"],
     img: imgBarobaybay,
     alt: "camping in the lake",
     title: "Barobaybay Camp Site",
-    subtitle: "Barobaybay, Lavezares N. Samar"
+    subtitle: "Barobaybay, Lavezares N. Samar",
+    router: "tour"
   }
 ];
 
@@ -102,7 +124,8 @@ const itemCategories = [
   "resort",
   "climbing",
   "camping",
-  "honeymoon"
+  "honeymoon",
+  "scape"
 ];
 
 class Package extends Component {

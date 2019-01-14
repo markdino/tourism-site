@@ -4,6 +4,8 @@ import { Router, Link } from "@reach/router";
 import NavbarMain from "./components/Navbar";
 import Home from "./components/Home";
 import Tour from "./components/Tour";
+import Lalaguna from "./components/tours/Lalaguna";
+import Tabok from "./components/tours/Tabok";
 
 class App extends Component {
   render() {
@@ -13,6 +15,8 @@ class App extends Component {
         <Router>
           <Home path="/" />
           <Tour path="tour" />
+          <Lalaguna path="lalaguna" />
+          <Tabok path="tabok" />
         </Router>
       </div>
     );

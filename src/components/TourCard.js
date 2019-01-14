@@ -10,12 +10,12 @@ import {
 import "../App.css";
 
 const TourCard = ({ tourcard }) => {
-  const { img, alt, title, subtitle } = tourcard;
+  const { img, alt, title, subtitle, router } = tourcard;
   return (
     <Card>
       <CardImg top width="100%" src={img} alt={alt} />
       <CardBody>
-        <Button outline color="secondary" className="float-right" href="tour">
+        <Button outline color="secondary" className="float-right" href={router}>
           Read more
         </Button>
         <CardTitle>{title}</CardTitle>
