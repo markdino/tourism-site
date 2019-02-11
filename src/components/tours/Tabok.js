@@ -5,6 +5,8 @@ import imgCard2 from "./tabok/img2.jpg";
 import imgCard3 from "./tabok/img3.jpg";
 import imgCard4 from "./tabok/img4.jpg";
 
+import Review from "./Review";
+
 const Tabok = () => (
   <div className="subComponent">
     <Container>

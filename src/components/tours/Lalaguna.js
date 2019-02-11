@@ -5,6 +5,8 @@ import imgCard2 from "./lalaguna-bay-mangrove-forest/img2.jpg";
 import imgCard3 from "./lalaguna-bay-mangrove-forest/img3.jpg";
 import imgCard4 from "./lalaguna-bay-mangrove-forest/img4.jpg";
 
+import Review from "./Review";
+
 const Lalaguna = () => (
   <div className="subComponent">
     <Container>

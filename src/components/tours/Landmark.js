@@ -4,6 +4,8 @@ import imgCard1 from "./landmark/img1.jpg";
 import imgCard2 from "./landmark/img2.jpg";
 import imgCard3 from "./landmark/img3.jpg";
 
+import Review from "./Review";
+
 const LandMark = () => (
   <div className="subComponent">
     <Container>
