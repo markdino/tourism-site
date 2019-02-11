@@ -144,8 +144,8 @@ class Package extends Component {
       <div className="subComponent-lg" id="packageBody">
         <Container>
           <header className="headerTitle text-center">
-            <h1>Tour Packages</h1>
-            <p>A Great Collection of Our Tour Packages</p>
+            <h1>Tour Collection</h1>
+            <p>A Great Collection of Our Tours</p>
           </header>
           <section className="packageBody text-center">
             {itemCategories.map((badge, index) => (
