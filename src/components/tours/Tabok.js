@@ -52,10 +52,7 @@ const Tabok = () => (
               </p>
               <h5>Contact</h5>
 
-              <p>
-                For more information contact at 0915
-                384 2114
-              </p>
+              <p>For more information contact at 0915 384 2114</p>
             </div>
           </Col>
           <Col sm="4">
@@ -83,46 +80,7 @@ const Tabok = () => (
         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15577.147378278183!2d124.3706759!3d12.563328!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5c64d75259b07496!2sTabok+Beach+Camping+%26+Diving+Resort!5e0!3m2!1sen!2sph!4v1547261280197"
       />
     </section>
-    <section className="reviews">
-      <Container>
-        <section className="tour-msg text-center">
-          <h1>Reviews and Suggestions</h1>
-          <p>We're glad to hear something from you.</p>
-          <form action="">
-            <Row>
-              <Col sm="6">
-                <input
-                  type="text"
-                  name="Name"
-                  id="reviewer-name"
-                  placeholder="Your Name"
-                  required
-                />
-                <br />
-                <input
-                  type="email"
-                  name="Email"
-                  id="reviewer-email"
-                  placeholder="Your email"
-                  required
-                />
-              </Col>
-              <Col>
-                <textarea
-                  name="Message"
-                  id="reviewer-message"
-                  rows="4"
-                  placeholder="Your Message"
-                />
-              </Col>
-            </Row>
-            <Button outline color="secondary" className="float-right">
-              Submit
-            </Button>
-          </form>
-        </section>
-      </Container>
-    </section>
+    <Review />
   </div>
 );
 

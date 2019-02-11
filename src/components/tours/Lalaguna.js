@@ -78,46 +78,7 @@ const Lalaguna = () => (
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124720.3736243647!2d124.32398977986037!3d12.348620103390477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a74e2af321ab1d%3A0xd44779aa831f04ec!2sSan+Isidro%2C+Northern+Samar!5e0!3m2!1sen!2sph!4v1547259729662"
       />
     </section>
-    <section className="reviews">
-      <Container>
-        <section className="tour-msg text-center">
-          <h1>Reviews and Suggestions</h1>
-          <p>We're glad to hear something from you.</p>
-          <form action="">
-            <Row>
-              <Col sm="6">
-                <input
-                  type="text"
-                  name="Name"
-                  id="reviewer-name"
-                  placeholder="Your Name"
-                  required
-                />
-                <br />
-                <input
-                  type="email"
-                  name="Email"
-                  id="reviewer-email"
-                  placeholder="Your email"
-                  required
-                />
-              </Col>
-              <Col>
-                <textarea
-                  name="Message"
-                  id="reviewer-message"
-                  rows="4"
-                  placeholder="Your Message"
-                />
-              </Col>
-            </Row>
-            <Button outline color="secondary" className="float-right">
-              Submit
-            </Button>
-          </form>
-        </section>
-      </Container>
-    </section>
+    <Review />
   </div>
 );
 

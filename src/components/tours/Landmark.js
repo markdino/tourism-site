@@ -72,46 +72,7 @@ const LandMark = () => (
         src="https://www.google.com/maps/embed?pb=!1m15!1m11!1m3!1d6434.0649213862725!2d124.33329261857197!3d12.553937232274986!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!2m1!1sresort+near+Lavezares%2C+Northern+Samar!5e1!3m2!1sen!2sph!4v1549540886678"
       />
     </section>
-    <section className="reviews">
-      <Container>
-        <section className="tour-msg text-center">
-          <h1>Reviews and Suggestions</h1>
-          <p>We're glad to hear something from you.</p>
-          <form action="">
-            <Row>
-              <Col sm="6">
-                <input
-                  type="text"
-                  name="Name"
-                  id="reviewer-name"
-                  placeholder="Your Name"
-                  required
-                />
-                <br />
-                <input
-                  type="email"
-                  name="Email"
-                  id="reviewer-email"
-                  placeholder="Your email"
-                  required
-                />
-              </Col>
-              <Col>
-                <textarea
-                  name="Message"
-                  id="reviewer-message"
-                  rows="4"
-                  placeholder="Your Message"
-                />
-              </Col>
-            </Row>
-            <Button outline color="secondary" className="float-right">
-              Submit
-            </Button>
-          </form>
-        </section>
-      </Container>
-    </section>
+    <Review />
   </div>
 );
 

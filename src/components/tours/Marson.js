@@ -17,6 +17,8 @@ import imgCard13 from "./marson/img13.jpg";
 import imgCard14 from "./marson/img14.jpg";
 import imgCard15 from "./marson/img15.jpg";
 
+import Review from "./Review";
+
 const Marson = () => (
   <div className="subComponent">
     <Container>
@@ -40,29 +42,43 @@ const Marson = () => (
                 of Lavezares, Northern Samar, about 8 kilometers from the main
                 road and . But once you reach Marson's Beach Resort, you will be
                 pleased by the relaxing ambiance and wonderful trees that
-                surrounds it. Marson's Beach Resort is situated in Brgy.
-                Barobaybay, Bani Island, Lavezares, Northern Samar. It is about
-                5-7 minutes away from the seaport of Brgy. Barobaybay and about
-                40-50 minutes from main town of Catarman. The resort offers
-                Cottages at a decent price for twin-sharing. They have multiple
-                cottages so reservation ahead of time is a must to avoid being
-                denied or passed to other resorts especially during Summer and
-                Holy Week. Marson's Beach Resort also offers volleyball and
-                badminton court for ₱20/hour. The maximum allowed occupancy per
-                cottage is depends on the package availed. The entrance to the
-                resort is only available for those who will be paying one
-                cottage. Swimming is at best during low-tide and high-tide so be
-                sure to check the local calendar or any crew for the
-                low-tide/high-tide time. Marson's Beach Resort also offers a
-                service car, motorboats and outriggers to guests at an
-                affordable price. This will be used as transportation going to
-                the different nearby islands and attractions in Biri, Northern
-                Samar which will take only an hour or less depending on the
-                speed of the boat. There are rooms, cottages, beach volleyball
-                court, and life preserver available for rent for those who want
-                will avail the package. *Prices may vary upon negotiation. Get a
-                reservation now!
+                surrounds it.
               </p>
+              <p>
+                {" "}
+                Marson's Beach Resort is situated in Brgy. Barobaybay, Bani
+                Island, Lavezares, Northern Samar. It is about 5-7 minutes away
+                from the seaport of Brgy. Barobaybay and about 40-50 minutes
+                from main town of Catarman.
+              </p>
+              <p>
+                {" "}
+                The resort offers Cottages at a decent price for twin-sharing.
+                They have multiple cottages so reservation ahead of time is a
+                must to avoid being denied or passed to other resorts especially
+                during Summer and Holy Week.{" "}
+              </p>
+              <p>
+                Marson's Beach Resort also offers volleyball and badminton court
+                for ₱20/hour. The maximum allowed occupancy per cottage is
+                depends on the package availed.{" "}
+              </p>
+              <p>
+                The entrance to the resort is only available for those who will
+                be paying one cottage. Swimming is at best during low-tide and
+                high-tide so be sure to check the local calendar or any crew for
+                the low-tide/high-tide time.{" "}
+              </p>
+              <p>
+                Marson's Beach Resort also offers a service car, motorboats and
+                outriggers to guests at an affordable price. This will be used
+                as transportation going to the different nearby islands and
+                attractions in Biri, Northern Samar which will take only an hour
+                or less depending on the speed of the boat. There are rooms,
+                cottages, beach volleyball court, and life preserver available
+                for rent for those who want will avail the package.{" "}
+              </p>
+              <p>*Prices may vary upon negotiation. Get a reservation now!</p>
               <p>SUMMER PROMO!!!</p>
               <p>Entrance fee is 20 PHP</p>
               <p>
@@ -145,46 +161,7 @@ const Marson = () => (
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4967.8877531205935!2d124.36346766285253!3d12.561857973790744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa0a351a662d45ef4!2sMarsons&#39;+Beach+Resort!5e0!3m2!1sen!2sph!4v1549541818914"
       />
     </section>
-    <section className="reviews">
-      <Container>
-        <section className="tour-msg text-center">
-          <h1>Reviews and Suggestions</h1>
-          <p>We're glad to hear something from you.</p>
-          <form action="">
-            <Row>
-              <Col sm="6">
-                <input
-                  type="text"
-                  name="Name"
-                  id="reviewer-name"
-                  placeholder="Your Name"
-                  required
-                />
-                <br />
-                <input
-                  type="email"
-                  name="Email"
-                  id="reviewer-email"
-                  placeholder="Your email"
-                  required
-                />
-              </Col>
-              <Col>
-                <textarea
-                  name="Message"
-                  id="reviewer-message"
-                  rows="4"
-                  placeholder="Your Message"
-                />
-              </Col>
-            </Row>
-            <Button outline color="secondary" className="float-right">
-              Submit
-            </Button>
-          </form>
-        </section>
-      </Container>
-    </section>
+    <Review />
   </div>
 );
 
