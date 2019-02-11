@@ -29,7 +29,7 @@ const tours = [
   },
   {
     id: 2,
-    category: ["beach", "camping", "honeymoon"],
+    category: ["beach", "camping", "honeymoon", "resort"],
     img: imgtabok,
     alt: "blah blah",
     title: "Tabok Beach Camping & Diving Resort",
