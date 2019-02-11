@@ -20,15 +20,6 @@ import imgMarson from "./tours/marson/cover.jpg";
 const tours = [
   {
     id: 1,
-    category: ["scape"],
-    img: lalaguna,
-    alt: "blah blah",
-    title: "Lalaguna Bay Mangrove Forest",
-    subtitle: "San Isidro",
-    router: "lalaguna"
-  },
-  {
-    id: 2,
     category: ["resort", "honeymoon", "beach", "camping", "scape"],
     img: imgMarson,
     alt: "blah blah",
@@ -37,25 +28,7 @@ const tours = [
     router: "marson"
   },
   {
-    id: 3,
-    category: ["beach", "mountain"],
-    img: imgCard2,
-    alt: "blah blah",
-    title: "Isla de Gigantes",
-    subtitle: "Carles, Iloilo",
-    router: "tour"
-  },
-  {
-    id: 4,
-    category: ["resort", "honeymoon"],
-    img: imgCard3,
-    alt: "blah blah",
-    title: "The Farm",
-    subtitle: "San Benito, Batangas",
-    router: "tour"
-  },
-  {
-    id: 5,
+    id: 2,
     category: ["beach", "camping", "honeymoon"],
     img: imgtabok,
     alt: "blah blah",
@@ -64,25 +37,7 @@ const tours = [
     router: "tabok"
   },
   {
-    id: 6,
-    category: ["resort", "honeymoon", "beach"],
-    img: imgCard5,
-    alt: "blah blah",
-    title: "Koro Sun Resort & Rainforest Spa",
-    subtitle: "Vanua Levu, Fiji",
-    router: "tour"
-  },
-  {
-    id: 7,
-    category: ["climbing", "mountain"],
-    img: imgCard6,
-    alt: "blah blah",
-    title: "Pi Shan",
-    subtitle: "Yangshuo China",
-    router: "tour"
-  },
-  {
-    id: 8,
+    id: 3,
     category: ["scape"],
     img: landmark,
     alt: "blah blah",
@@ -91,31 +46,13 @@ const tours = [
     router: "landmark"
   },
   {
-    id: 9,
-    category: ["honeymoon", "beach", "resort"],
-    img: imgCard8,
+    id: 4,
+    category: ["scape"],
+    img: lalaguna,
     alt: "blah blah",
-    title: "Shangri-La’s Boracay Resort and Spa",
-    subtitle: "Boracay Resort",
-    router: "tour"
-  },
-  {
-    id: 10,
-    category: ["beach", "resort"],
-    img: imgCard9,
-    alt: "blah blah",
-    title: "HUMANA Island Resort & Spa",
-    subtitle: "Palawan",
-    router: "tour"
-  },
-  {
-    id: 11,
-    category: ["camping", "beach"],
-    img: imgBarobaybay,
-    alt: "camping in the lake",
-    title: "Barobaybay Camp Site",
-    subtitle: "Barobaybay, Lavezares N. Samar",
-    router: "tour"
+    title: "Lalaguna Bay Mangrove Forest",
+    subtitle: "San Isidro",
+    router: "lalaguna"
   }
 ];
 
