@@ -8,6 +8,7 @@ import Lalaguna from "./components/tours/Lalaguna";
 import Tabok from "./components/tours/Tabok";
 import Landmark from "./components/tours/Landmark";
 import Marson from "./components/tours/Marson";
+import Cagomaoas from "./components/tours/Cagomaoas";
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
           <Tabok path="tabok" />
           <Landmark path="landmark" />
           <Marson path="marson" />
+          <Cagomaoas path="cagumao-as" />
         </Router>
       </div>
     );

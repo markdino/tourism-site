@@ -2,20 +2,11 @@ import React, { Component } from "react";
 import { Container, Row, CardColumns, Badge } from "reactstrap";
 import TourCard from "./TourCard";
 import "../App.css";
-import imgCard1 from "../img/img-card (1).jpg";
-import imgCard2 from "../img/img-card (2).jpg";
-import imgCard3 from "../img/img-card (3).jpg";
-import imgCard4 from "../img/img-card (4).jpg";
-import imgCard5 from "../img/img-card (5).jpg";
-import imgCard6 from "../img/img-card (6).jpg";
-import imgCard7 from "../img/img-card (7).jpg";
-import imgCard8 from "../img/img-card (8).jpg";
-import imgCard9 from "../img/img-card (9).jpg";
-import imgBarobaybay from "../img/barobaybay.jpg";
 import lalaguna from "./tours/lalaguna-bay-mangrove-forest/img1.jpg";
 import imgtabok from "./tours/tabok/img1.jpg";
 import landmark from "./tours/landmark/img1.jpg";
 import imgMarson from "./tours/marson/cover.jpg";
+import imgCagomaoas from "./tours/cagomaoas/img1.jpg";
 
 const tours = [
   {
@@ -53,6 +44,15 @@ const tours = [
     title: "Lalaguna Bay Mangrove Forest",
     subtitle: "San Isidro",
     router: "lalaguna"
+  },
+  {
+    id: 5,
+    category: ["resort"],
+    img: imgCagomaoas,
+    alt: "blah blah",
+    title: "Cagumao-as Leisure Farm",
+    subtitle: "Villahermosa",
+    router: "cagumao-as"
   }
 ];
 
