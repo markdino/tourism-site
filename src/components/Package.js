@@ -15,6 +15,7 @@ import imgBarobaybay from "../img/barobaybay.jpg";
 import lalaguna from "./tours/lalaguna-bay-mangrove-forest/img1.jpg";
 import imgtabok from "./tours/tabok/img1.jpg";
 import landmark from "./tours/landmark/img1.jpg";
+import imgMarson from "./tours/marson/cover.jpg";
 
 const tours = [
   {
@@ -28,12 +29,12 @@ const tours = [
   },
   {
     id: 2,
-    category: ["resort", "honeymoon"],
-    img: imgCard1,
+    category: ["resort", "honeymoon", "beach", "camping", "scape"],
+    img: imgMarson,
     alt: "blah blah",
-    title: "Seaside Resort",
-    subtitle: "Batangas Resort",
-    router: "tour"
+    title: "Marson's Beach Resort - Villa Patria",
+    subtitle: "Bani Island",
+    router: "marson"
   },
   {
     id: 3,

@@ -7,6 +7,7 @@ import Tour from "./components/Tour";
 import Lalaguna from "./components/tours/Lalaguna";
 import Tabok from "./components/tours/Tabok";
 import Landmark from "./components/tours/Landmark";
+import Marson from "./components/tours/Marson";
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
           <Lalaguna path="lalaguna" />
           <Tabok path="tabok" />
           <Landmark path="landmark" />
+          <Marson path="marson" />
         </Router>
       </div>
     );
