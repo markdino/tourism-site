@@ -14,6 +14,7 @@ import imgCard9 from "../img/img-card (9).jpg";
 import imgBarobaybay from "../img/barobaybay.jpg";
 import lalaguna from "./tours/lalaguna-bay-mangrove-forest/img1.jpg";
 import imgtabok from "./tours/tabok/img1.jpg";
+import landmark from "./tours/landmark/img1.jpg";
 
 const tours = [
   {
@@ -81,12 +82,12 @@ const tours = [
   },
   {
     id: 8,
-    category: ["beach", "climbing"],
-    img: imgCard7,
+    category: ["scape"],
+    img: landmark,
     alt: "blah blah",
-    title: "El-Nido",
-    subtitle: "Palawan",
-    router: "tour"
+    title: "Landmark of the Risen Jesus",
+    subtitle: "Lavezares landmark",
+    router: "landmark"
   },
   {
     id: 9,
