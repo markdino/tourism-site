@@ -11,7 +11,10 @@ const LandMark = () => (
     <Container>
       <section className="tour-cover item-center">
         <img src={imgCard1} alt="" />
-        <h1>Landmark of the Risen Jesus</h1>
+        <h1>
+          Landmark of the Risen Jesus{" "}
+          <i>(Nuestra Señora de Salvacion Statue)</i>
+        </h1>
         <h4>Lavezares</h4>
       </section>
       <section className="tour-info">
@@ -71,7 +74,7 @@ const LandMark = () => (
     <section>
       <iframe
         title="Lavezares Landmark map"
-        src="https://www.google.com/maps/embed?pb=!1m15!1m11!1m3!1d6434.0649213862725!2d124.33329261857197!3d12.553937232274986!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!2m1!1sresort+near+Lavezares%2C+Northern+Samar!5e1!3m2!1sen!2sph!4v1549540886678"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13237.52720525115!2d124.32188689057335!3d12.546498298120103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a0ad36f46e3619%3A0xd7077c26614c81ca!2sNuestra+Se%C3%B1ora+de+Salvacion+Statue!5e0!3m2!1sen!2sph!4v1549939951108"
       />
     </section>
     <Review />

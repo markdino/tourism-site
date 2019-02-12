@@ -32,7 +32,7 @@ const tours = [
     category: ["scape"],
     img: landmark,
     alt: "blah blah",
-    title: "Landmark of the Risen Jesus",
+    title: "Landmark of the Risen Jesus (Nuestra Señora de Salvacion Statue)",
     subtitle: "Lavezares landmark",
     router: "landmark"
   },
