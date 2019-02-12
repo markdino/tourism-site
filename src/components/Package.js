@@ -8,6 +8,7 @@ import landmark from "./tours/landmark/img1.jpg";
 import imgMarson from "./tours/marson/cover.jpg";
 import imgCagomaoas from "./tours/cagomaoas/img1.jpg";
 import imgRisenChrist from "./tours/risen-christ/cover.jpg";
+import imgBangkawan from "./tours/bangkawan/cover.jpg";
 
 const tours = [
   {
@@ -63,6 +64,15 @@ const tours = [
     title: "The Shrine of the Risen Christ",
     subtitle: "Brgy. Balicuatro",
     router: "risen-christ"
+  },
+  {
+    id: 7,
+    category: ["beach", "camping", "resort"],
+    img: imgBangkawan,
+    alt: "blah blah",
+    title: "Bangkawan Cove & Camping Resort",
+    subtitle: "Bangkawan Island",
+    router: "bangkawan"
   }
 ];
 
