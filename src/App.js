@@ -9,6 +9,7 @@ import Tabok from "./components/tours/Tabok";
 import Landmark from "./components/tours/Landmark";
 import Marson from "./components/tours/Marson";
 import Cagomaoas from "./components/tours/Cagomaoas";
+import RisenChrit from "./components/tours/RisenChrist";
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
           <Landmark path="landmark" />
           <Marson path="marson" />
           <Cagomaoas path="cagumao-as" />
+          <RisenChrit path="risen-christ" />
         </Router>
       </div>
     );

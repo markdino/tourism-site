@@ -7,6 +7,7 @@ import imgtabok from "./tours/tabok/img1.jpg";
 import landmark from "./tours/landmark/img1.jpg";
 import imgMarson from "./tours/marson/cover.jpg";
 import imgCagomaoas from "./tours/cagomaoas/img1.jpg";
+import imgRisenChrist from "./tours/risen-christ/cover.jpg";
 
 const tours = [
   {
@@ -53,6 +54,15 @@ const tours = [
     title: "Cagumao-as Leisure Farm",
     subtitle: "Villahermosa",
     router: "cagumao-as"
+  },
+  {
+    id: 6,
+    category: ["beach", "scape"],
+    img: imgRisenChrist,
+    alt: "blah blah",
+    title: "The Shrine of the Risen Christ",
+    subtitle: "Brgy. Balicuatro",
+    router: "risen-christ"
   }
 ];
 
