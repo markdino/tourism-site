@@ -69,9 +69,7 @@ const tours = [
 const itemCategories = [
   "all",
   "beach",
-  "mountain",
   "resort",
-  "climbing",
   "camping",
   "honeymoon",
   "scape"
