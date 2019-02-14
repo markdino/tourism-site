@@ -9,6 +9,7 @@ import imgMarson from "./tours/marson/cover.jpg";
 import imgCagomaoas from "./tours/cagomaoas/img1.jpg";
 import imgRisenChrist from "./tours/risen-christ/cover.jpg";
 import imgBangkawan from "./tours/bangkawan/cover.jpg";
+import imgJhonsGarden from "./tours/jhons-garden/thumbnail.jpg";
 
 const tours = [
   {
@@ -41,6 +42,15 @@ const tours = [
   {
     id: 4,
     category: ["scape"],
+    img: imgJhonsGarden,
+    alt: "blah blah",
+    title: "Jhon's Garden",
+    subtitle: "Brgy. Barobaybay",
+    router: "jhons-garden"
+  },
+  {
+    id: 5,
+    category: ["scape"],
     img: lalaguna,
     alt: "blah blah",
     title: "Lalaguna Bay Mangrove Forest",
@@ -48,7 +58,7 @@ const tours = [
     router: "lalaguna"
   },
   {
-    id: 5,
+    id: 6,
     category: ["resort"],
     img: imgCagomaoas,
     alt: "blah blah",
@@ -57,7 +67,7 @@ const tours = [
     router: "cagumao-as"
   },
   {
-    id: 6,
+    id: 7,
     category: ["beach", "scape"],
     img: imgRisenChrist,
     alt: "blah blah",
@@ -66,7 +76,7 @@ const tours = [
     router: "risen-christ"
   },
   {
-    id: 7,
+    id: 8,
     category: ["beach", "camping", "resort"],
     img: imgBangkawan,
     alt: "blah blah",
