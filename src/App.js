@@ -12,6 +12,7 @@ import Cagomaoas from "./components/tours/Cagomaoas";
 import RisenChrit from "./components/tours/RisenChrist";
 import Bangkawan from "./components/tours/Bangkawan";
 import JhonsGarden from "./components/tours/JhonsGarden";
+import PPP from "./components/tours/PPP";
 
 class App extends Component {
   render() {
@@ -29,6 +30,7 @@ class App extends Component {
           <RisenChrit path="risen-christ" />
           <Bangkawan path="bangkawan" />
           <JhonsGarden path="jhons-garden" />
+          <PPP path="ppp" />
         </Router>
       </div>
     );

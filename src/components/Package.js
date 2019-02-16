@@ -10,6 +10,7 @@ import imgCagomaoas from "./tours/cagomaoas/img1.jpg";
 import imgRisenChrist from "./tours/risen-christ/cover.jpg";
 import imgBangkawan from "./tours/bangkawan/cover.jpg";
 import imgJhonsGarden from "./tours/jhons-garden/thumbnail.jpg";
+import imgPPP from "./tours/ppp/img1.jpg";
 
 const tours = [
   {
@@ -83,6 +84,15 @@ const tours = [
     title: "Bangkawan Cove & Camping Resort",
     subtitle: "Bangkawan Island",
     router: "bangkawan"
+  },
+  {
+    id: 9,
+    category: ["resort"],
+    img: imgPPP,
+    alt: "blah blah",
+    title: "Chiara's & Clyde Resort",
+    subtitle: "Cataogan",
+    router: "ppp"
   }
 ];
 
