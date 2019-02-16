@@ -15,6 +15,7 @@ import imgCard11 from "./jhons-garden/img11.jpg";
 import imgCard12 from "./jhons-garden/img12.jpg";
 import imgCard13 from "./jhons-garden/img13.jpg";
 import imgCard14 from "./jhons-garden/img14.jpg";
+import imgMap from "./jhons-garden/map.jpg";
 
 import Review from "./Review";
 
@@ -31,35 +32,32 @@ const JhonsGarden = () => (
           <Col sm="8">
             <div className="tour-desc">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                A place to simply relax, a nature's view to enjoy in different
+                colors, fresh air that will play the strands of your hair, the
+                sweet tweets of birds can be heard, the lovely butterflies are
+                roaming around; these are present in Jhon's Garden
               </p>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-                voluptas sit aspernatur aut odit aut fugit, sed quia
-                consequuntur magni dolores eos qui ratione voluptatem sequi
-                nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
-                sit amet, consectetur, adipisci velit, sed quia non numquam eius
-                modi tempora incidunt ut labore et dolore magnam aliquam quaerat
-                voluptatem. Ut enim ad minima veniam, quis nostrum
-                exercitationem ullam corporis suscipit laboriosam, nisi ut
-                aliquid ex ea commodi consequatur? Quis autem vel eum iure
-                reprehenderit qui in ea voluptate velit esse quam nihil
-                molestiae consequatur, vel illum qui dolorem eum fugiat quo
-                voluptas nulla pariatur.
+                With the green thumb of Jhon to do the landscape, the beauty of
+                coleus plants are amazingly wonderful! Have a visit, have a
+                look, enjoy the scenery, and be in love in the garden. This is
+                the place you would love to go for unwinding yourself. See and
+                experience for yourself!
               </p>
-
+              <p>
+                <img
+                  src={imgMap}
+                  alt="Jhon's Garden Map"
+                  align="left"
+                  width="50%"
+                  style={{ marginRight: 10 + "px" }}
+                />
+                The garden is situated at the heart of Brgy. Barobaybay,
+                Lavezares, Northern Samar. You are warmly welcome!
+              </p>
               <h5>Contact</h5>
 
-              <p>For more info contact #09107595168</p>
+              <p>For more info contact #0910 046 6748</p>
             </div>
           </Col>
           <Col sm="4">
