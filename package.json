@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@reach/router": "^1.2.1",
-    "bootstrap": "^4.1.3",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
+    "@reach/router": "^1.3.4",
+    "bootstrap": "^4.5.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-scripts": "2.0.4",
     "reactstrap": "^6.5.0"
   },
