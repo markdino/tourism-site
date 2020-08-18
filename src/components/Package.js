@@ -1,16 +1,6 @@
 import React, { Component } from "react";
-import {
-  Container,
-  Row,
-  Col,
-  Card,
-  CardImg,
-  CardBody,
-  CardTitle,
-  CardSubtitle,
-  Button,
-  Badge
-} from "reactstrap";
+import { Container, Row, CardColumns, Badge } from "reactstrap";
+import TourCard from "./TourCard";
 import "../App.css";
 import imgCard1 from "../img/img-card (1).jpg";
 import imgCard2 from "../img/img-card (2).jpg";
@@ -21,192 +11,145 @@ import imgCard6 from "../img/img-card (6).jpg";
 import imgCard7 from "../img/img-card (7).jpg";
 import imgCard8 from "../img/img-card (8).jpg";
 import imgCard9 from "../img/img-card (9).jpg";
-import imgCard10 from "../img/img-card (10).JPG";
-import imgCard11 from "../img/img-card (11).jpg";
-import imgCard12 from "../img/img-card (12).jpg";
+import imgBarobaybay from "../img/barobaybay.jpg";
+const tours = [
+  {
+    id: 1,
+    category: ["resort", "honeymoon"],
+    img: imgCard1,
+    alt: "blah blah",
+    title: "Seaside Resort",
+    subtitle: "Batangas Resort"
+  },
+  {
+    id: 2,
+    category: ["beach", "mountain"],
+    img: imgCard2,
+    alt: "blah blah",
+    title: "Isla de Gigantes",
+    subtitle: "Carles, Iloilo"
+  },
+  {
+    id: 3,
+    category: ["resort", "honeymoon"],
+    img: imgCard3,
+    alt: "blah blah",
+    title: "The Farm",
+    subtitle: "San Benito, Batangas"
+  },
+  {
+    id: 4,
+    category: ["climbing", "mountain"],
+    img: imgCard4,
+    alt: "blah blah",
+    title: "Poog",
+    subtitle: "Cebu"
+  },
+  {
+    id: 5,
+    category: ["resort", "honeymoon", "beach"],
+    img: imgCard5,
+    alt: "blah blah",
+    title: "Koro Sun Resort & Rainforest Spa",
+    subtitle: "Vanua Levu, Fiji"
+  },
+  {
+    id: 6,
+    category: ["climbing", "mountain"],
+    img: imgCard6,
+    alt: "blah blah",
+    title: "Pi Shan",
+    subtitle: "Yangshuo China"
+  },
+  {
+    id: 7,
+    category: ["beach", "climbing"],
+    img: imgCard7,
+    alt: "blah blah",
+    title: "El-Nido",
+    subtitle: "Palawan"
+  },
+  {
+    id: 8,
+    category: ["honeymoon", "beach", "resort"],
+    img: imgCard8,
+    alt: "blah blah",
+    title: "Shangri-La’s Boracay Resort and Spa",
+    subtitle: "Boracay Resort"
+  },
+  {
+    id: 9,
+    category: ["beach", "resort"],
+    img: imgCard9,
+    alt: "blah blah",
+    title: "HUMANA Island Resort & Spa",
+    subtitle: "Palawan"
+  },
+  {
+    id: 10,
+    category: ["camping", "beach"],
+    img: imgBarobaybay,
+    alt: "camping in the lake",
+    title: "Barobaybay Camp Site",
+    subtitle: "Barobaybay, Lavezares N. Samar"
+  }
+];
+
+const itemCategories = [
+  "all",
+  "beach",
+  "mountain",
+  "resort",
+  "climbing",
+  "camping",
+  "honeymoon"
+];
 
 class Package extends Component {
+  state = {
+    cards: [],
+    category: "all"
+  };
+
+  componentDidMount() {
+    this.setState({ cards: tours });
+  }
+
   render() {
+    const { cards, category } = this.state;
     return (
-      <div className="subComponent">
+      <div className="subComponent-lg" id="packageBody">
         <Container>
           <header className="headerTitle text-center">
             <h1>Tour Packages</h1>
             <p>A Great Collection of Our Tour Packages</p>
           </header>
           <section className="packageBody text-center">
-            <Badge href="#" color="dark">
-              All
-            </Badge>
-            <Badge href="#" color="light">
-              Beach
-            </Badge>
-            <Badge href="#" color="light">
-              Mountain
-            </Badge>
-            <Badge href="#" color="light">
-              Resort
-            </Badge>
-            <Badge href="#" color="light">
-              Camping
-            </Badge>
-            <Badge href="#" color="light">
-              Honeymoon
-            </Badge>
+            {itemCategories.map((badge, index) => (
+              <Badge
+                key={index}
+                href=""
+                color={badge === category ? "dark" : "light"}
+                onClick={() => this.setState({ category: badge })}
+              >
+                {badge}
+              </Badge>
+            ))}
+
             <Row className="text-left">
-              <Col md="4" sm="6">
-                <Card>
-                  <CardImg
-                    top
-                    width="100%"
-                    src={imgCard1}
-                    alt="Card image cap"
-                  />
-                  <CardBody>
-                    <CardTitle>Card title</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
-                    <Button color="secondary" className="float-right">
-                      Read more
-                    </Button>
-                  </CardBody>
-                </Card>
-              </Col>
-              <Col md="4" sm="6">
-                <Card>
-                  <CardImg
-                    top
-                    width="100%"
-                    src={imgCard2}
-                    alt="Card image cap"
-                  />
-                  <CardBody>
-                    <CardTitle>Card title</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
-                    <Button color="secondary" className="float-right">
-                      Read more
-                    </Button>
-                  </CardBody>
-                </Card>
-              </Col>
-              <Col md="4" sm="6">
-                <Card>
-                  <CardImg
-                    top
-                    width="100%"
-                    src={imgCard3}
-                    alt="Card image cap"
-                  />
-                  <CardBody>
-                    <CardTitle>Card title</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
-                    <Button color="secondary" className="float-right">
-                      Read more
-                    </Button>
-                  </CardBody>
-                </Card>
-              </Col>
-              <Col md="4" sm="6">
-                <Card>
-                  <CardImg
-                    top
-                    width="100%"
-                    src={imgCard4}
-                    alt="Card image cap"
-                  />
-                  <CardBody>
-                    <CardTitle>Card title</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
-                    <Button color="secondary" className="float-right">
-                      Read more
-                    </Button>
-                  </CardBody>
-                </Card>
-              </Col>
-              <Col md="4" sm="6">
-                <Card>
-                  <CardImg
-                    top
-                    width="100%"
-                    src={imgCard5}
-                    alt="Card image cap"
-                  />
-                  <CardBody>
-                    <CardTitle>Card title</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
-                    <Button color="secondary" className="float-right">
-                      Read more
-                    </Button>
-                  </CardBody>
-                </Card>
-              </Col>
-              <Col md="4" sm="6">
-                <Card>
-                  <CardImg
-                    top
-                    width="100%"
-                    src={imgCard6}
-                    alt="Card image cap"
-                  />
-                  <CardBody>
-                    <CardTitle>Card title</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
-                    <Button color="secondary" className="float-right">
-                      Read more
-                    </Button>
-                  </CardBody>
-                </Card>
-              </Col>
-              <Col md="4" sm="6">
-                <Card>
-                  <CardImg
-                    top
-                    width="100%"
-                    src={imgCard7}
-                    alt="Card image cap"
-                  />
-                  <CardBody>
-                    <CardTitle>Card title</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
-                    <Button color="secondary" className="float-right">
-                      Read more
-                    </Button>
-                  </CardBody>
-                </Card>
-              </Col>
-              <Col md="4" sm="6">
-                <Card>
-                  <CardImg
-                    top
-                    width="100%"
-                    src={imgCard8}
-                    alt="Card image cap"
-                  />
-                  <CardBody>
-                    <CardTitle>Card title</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
-                    <Button color="secondary" className="float-right">
-                      Read more
-                    </Button>
-                  </CardBody>
-                </Card>
-              </Col>
-              <Col md="4" sm="6">
-                <Card>
-                  <CardImg
-                    top
-                    width="100%"
-                    src={imgCard9}
-                    alt="Card image cap"
-                  />
-                  <CardBody>
-                    <CardTitle>Card title</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
-                    <Button color="secondary" className="float-right">
-                      Read more
-                    </Button>
-                  </CardBody>
-                </Card>
-              </Col>
+              <CardColumns>
+                {category !== "all"
+                  ? cards.map(tourcard => {
+                    return tourcard.category.map(catItem => {
+                      return catItem === category ? (
+                        <TourCard key={tourcard.id} tourcard={tourcard} />
+                      ) : null;
+                    });
+                  })
+                  : cards.map(tourcard => (
+                    <TourCard key={tourcard.id} tourcard={tourcard} />
+                  ))}
+              </CardColumns>
             </Row>
           </section>
         </Container>
