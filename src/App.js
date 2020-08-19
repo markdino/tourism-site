@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import "./App.css";
 import { Router, Link } from "@reach/router";
 import NavbarMain from "./components/Navbar";
-import Home from "./components/Home";
-import Tour from "./components/Tour";
+import Home from "./pages/Home";
+import Tour from "./pages/Tour";
 
 class App extends Component {
   render() {
