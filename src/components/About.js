@@ -10,7 +10,7 @@ import { ReactComponent as Heart } from "../assets/svg/heart.svg";
 class About extends Component {
   render() {
     return (
-      <div>
+      <div id='about'>
         <MainCarousel />
 
         <div className="subComponent" id="aboutBody">

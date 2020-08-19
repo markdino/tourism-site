@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
 import "../App.css";
-import MainCarousel from "./Carousel";
+
 import { ReactComponent as Trending } from "../assets/svg/trending-up.svg";
 import { ReactComponent as Flag } from "../assets/svg/flag.svg";
 import { ReactComponent as Monitor } from "../assets/svg/monitor.svg";

@@ -42,16 +42,16 @@ class NavbarMain extends React.Component {
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
                 <NavItem>
-                  <NavLink href="#mainCarousel">About</NavLink>
+                  <NavLink href="#about">About</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="#">Package</NavLink>
+                  <NavLink href="#packageBody">Package</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="#">Services</NavLink>
+                  <NavLink href="#servicesBody">Services</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="#">Contact</NavLink>
+                  <NavLink href="#contactBody">Contact</NavLink>
                 </NavItem>
                 <Button color="success">Login</Button>{" "}
               </Nav>
