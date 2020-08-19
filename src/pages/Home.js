@@ -10,7 +10,7 @@ import Footer from "../components/Footer";
 class Home extends Component {
   render() {
     return (
-      <div>
+      <div id='home'>
         <Hero />
         <About />
         <Package />
