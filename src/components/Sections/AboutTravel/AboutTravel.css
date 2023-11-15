@@ -27,3 +27,7 @@
     background: #f1f1f1;
     color: #2b2b2b;
 }
+
+.headerTitle p {
+    color: rgba(0, 0, 0, 0.5);
+}

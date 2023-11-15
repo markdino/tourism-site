@@ -34,3 +34,17 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.subComponent-lg {
+    padding: 80px 0px;
+}
+
+.packageBody .badge {
+    margin: 0px 5px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.svg-group p {
+    margin: 15px 0px;
+}

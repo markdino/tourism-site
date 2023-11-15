@@ -19,6 +19,10 @@
     color: #fdd86a !important;
 }
 
+.svg-group p {
+    margin: 15px 0px;
+}
+
 #hero {
     background: url('../../assets/images/bg.png') center center;
     background-size: cover;

@@ -13,6 +13,11 @@
     width: 100%;
 }
 
+.subComponent-lg {
+    padding: 80px 0px;
+}
+
+
 .contact__card:hover {
     border-style: solid;
     border-width: 2px;
@@ -46,4 +51,14 @@
 
 .contact__button {
     width: 60%;
+}
+
+
+#contactBody {
+    /* background: #98d3a6; */
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.headerTitle p {
+    color: rgba(0, 0, 0, 0.5);
 }

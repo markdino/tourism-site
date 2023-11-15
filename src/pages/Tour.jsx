@@ -119,6 +119,12 @@ class Tour extends Component {
             <>
                 <div className='subComponent'>
                     <section className='article__headline tour-cover item-center'>
+                        {/* <TourPageHeadline /> */}
+                            {/* <TourPageCarousel /> */}
+                            {/* <TourPageName /> */}
+                        {/* <TourPageContent /> */}
+                            {/* <TourPageSections /> */}
+                            {/* <TourPageReviews /> */}
                         <Carousel
                             activeIndex={activeIndex}
                             next={this.next}

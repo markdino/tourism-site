@@ -1,12 +1,13 @@
 /** @format */
 
 import React, { Component } from 'react'
-import './App.css'
 import { Router, Link } from '@reach/router'
+
 import Home from './pages/Home'
 import Tour from './pages/Tour'
-
 import Header from './components/Header'
+
+import './App.css'
 
 class App extends Component {
     render() {
