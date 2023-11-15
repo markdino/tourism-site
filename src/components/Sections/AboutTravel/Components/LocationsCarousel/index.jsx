@@ -1,2 +1,4 @@
-import LocationsCarousel from "./LocationsCarousel"
+/** @format */
+
+import LocationsCarousel from './LocationsCarousel'
 export default LocationsCarousel

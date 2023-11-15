@@ -1,2 +1,4 @@
-import CardTour from "./CardTour"
+/** @format */
+
+import CardTour from './CardTour'
 export default CardTour

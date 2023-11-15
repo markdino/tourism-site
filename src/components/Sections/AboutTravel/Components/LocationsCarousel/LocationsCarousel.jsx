@@ -1,11 +1,11 @@
 /** @format */
 
 import React, { Component } from 'react'
-import beach from '../../../../../img/beach.jpg'
-import resort from '../../../../../img/resort.jpg'
-import camp from '../../../../../img/camp.jpg'
-import mountain from '../../../../../img/mountain.jpg'
-import gulp from '../../../../../img/gulp.jpg'
+import beach from '../../../../../assets/images/beach.jpg'
+import resort from '../../../../../assets/images/resort.jpg'
+import camp from '../../../../../assets/images/camp.jpg'
+import mountain from '../../../../../assets/images/mountain.jpg'
+import gulp from '../../../../../assets/images/gulp.jpg'
 import {
     Carousel,
     CarouselItem,

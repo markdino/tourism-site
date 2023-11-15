@@ -17,7 +17,6 @@ class Home extends Component {
                 <AboutTravel />
                 <Packages />
 
-                
                 <Services />
                 <Contact />
                 <Footer />
