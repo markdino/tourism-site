@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { Container, Row, Col } from 'reactstrap'
-import LocationsCarousel from './Components/LocationsCarousel'
+
 import { ReactComponent as Award } from '../../../assets/svg/award.svg'
 import { ReactComponent as Shield } from '../../../assets/svg/shield.svg'
 import { ReactComponent as Compass } from '../../../assets/svg/compass.svg'

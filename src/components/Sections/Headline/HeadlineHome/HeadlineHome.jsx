@@ -2,10 +2,10 @@
 
 import React, { Component } from 'react'
 import { Button } from 'reactstrap'
-import './Headline.css'
-import CarouselHeadline from '../../Carousel/CarouselHeadline/CarouselHeadline'
+import './HeadlineHome.css'
+import CarouselHeadline from '../../../Carousel/CarouselHeadline/CarouselHeadline'
 
-class Headline extends Component {
+class HeadlineHome extends Component {
 
     render() {
         return (
@@ -36,4 +36,4 @@ class Headline extends Component {
     }
 }
 
-export default Headline
+export default HeadlineHome
