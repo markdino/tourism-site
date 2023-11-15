@@ -7,7 +7,7 @@ import { ReactComponent as Award } from '../../../assets/svg/award.svg'
 import { ReactComponent as Shield } from '../../../assets/svg/shield.svg'
 import { ReactComponent as Compass } from '../../../assets/svg/compass.svg'
 import { ReactComponent as Heart } from '../../../assets/svg/heart.svg'
-import './AboutTravel.scss'
+import './AboutTravel.css'
 
 const AboutTravel = () => {
     return (
@@ -18,13 +18,20 @@ const AboutTravel = () => {
 
                     <div className='subComponent' id='aboutBody'>
                         <Container>
-                            <header className='headerTitle text-center'>
-                                <h1>About Travel</h1>
+                            <header className='headerTitle'>
+                                <h1 className='aboutTravel__title'>
+                                    About Travel
+                                </h1>
                                 <p>Tour Guide & Private Guided Tours</p>
                             </header>
                             <section className='svg-group text-center subComponent'>
-                                <Row>
-                                    <Col lg='3' md='6' sm='6'>
+                                <Row className='aboutTravel__cards'>
+                                    <Col
+                                        className='aboutTravel__card'
+                                        lg='3'
+                                        md='6'
+                                        sm='6'
+                                    >
                                         <div className='svg-card'>
                                             <Award
                                                 width='48'
@@ -34,7 +41,12 @@ const AboutTravel = () => {
                                             <p>Best Price Guarantee</p>
                                         </div>
                                     </Col>
-                                    <Col lg='3' md='6' sm='6'>
+                                    <Col
+                                        className='aboutTravel__card'
+                                        lg='3'
+                                        md='6'
+                                        sm='6'
+                                    >
                                         <div className='svg-card'>
                                             <Shield
                                                 width='48'
@@ -44,7 +56,12 @@ const AboutTravel = () => {
                                             <p>Trust and Safety</p>
                                         </div>
                                     </Col>
-                                    <Col lg='3' md='6' sm='6'>
+                                    <Col
+                                        className='aboutTravel__card'
+                                        lg='3'
+                                        md='6'
+                                        sm='6'
+                                    >
                                         <div className='svg-card'>
                                             <Heart
                                                 width='48'
@@ -54,7 +71,12 @@ const AboutTravel = () => {
                                             <p>Best Travel Agent</p>
                                         </div>
                                     </Col>
-                                    <Col lg='3' md='6' sm='6'>
+                                    <Col
+                                        className='aboutTravel__card'
+                                        lg='3'
+                                        md='6'
+                                        sm='6'
+                                    >
                                         <div className='svg-card'>
                                             <Compass
                                                 width='48'

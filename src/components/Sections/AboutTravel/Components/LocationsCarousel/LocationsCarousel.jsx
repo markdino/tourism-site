@@ -14,6 +14,8 @@ import {
     CarouselCaption,
 } from 'reactstrap'
 
+import './LocationsCarousel.css'
+
 const items = [
     {
         src: resort,
@@ -87,47 +89,55 @@ class LocationsCarousel extends Component {
     render() {
         const { activeIndex } = this.state
 
-        const slides = items.map((item) => {
-            return (
-                <CarouselItem
-                    onExiting={this.onExiting}
-                    onExited={this.onExited}
-                    key={item.src}
-                >
-                    <img
-                        src={item.src}
-                        alt={item.altText}
-                        className='img-carousel'
-                    />
-                    <CarouselCaption
-                        captionText={item.altText}
-                        captionHeader={item.caption}
-                    />
-                </CarouselItem>
-            )
-        })
+        const slides = items.map((item, index) => (
+            <CarouselItem
+                onExiting={this.onExiting}
+                onExited={this.onExited}
+                key={item.src}
+                className={`locationsCarousel__item ${
+                    index === activeIndex
+                        ? 'locationsCarousel__item--active'
+                        : ''
+                }`}
+            >
+                <img
+                    src={item.src}
+                    alt={item.altText}
+                    className='locationsCarousel__image'
+                />
+                <CarouselCaption
+                    captionText={item.altText}
+                    captionHeader={item.caption}
+                    className='locationsCarousel__caption'
+                />
+            </CarouselItem>
+        ))
 
         return (
             <Carousel
                 activeIndex={activeIndex}
                 next={this.next}
                 previous={this.previous}
+                className='locationsCarousel'
             >
                 <CarouselIndicators
                     items={items}
                     activeIndex={activeIndex}
                     onClickHandler={this.goToIndex}
+                    className='locationsCarousel__indicators'
                 />
                 {slides}
                 <CarouselControl
                     direction='prev'
                     directionText='Previous'
                     onClickHandler={this.previous}
+                    className='locationsCarousel__control locationsCarousel__control--prev'
                 />
                 <CarouselControl
                     direction='next'
                     directionText='Next'
                     onClickHandler={this.next}
+                    className='locationsCarousel__control locationsCarousel__control--next'
                 />
             </Carousel>
         )

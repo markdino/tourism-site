@@ -12,54 +12,60 @@ import { ReactComponent as MapPin } from '../../../assets/svg/map-pin.svg'
 class Services extends Component {
     render() {
         return (
-            <div className='wrapped-services'>
-                <div className='subComponent' id='servicesBody'>
-                    <Container>
-                        <section className='svg-group text-center'>
-                            <Row>
-                                <Col lg='3' md='6' sm='6'>
-                                    <div className='svg-card-2'>
-                                        <Trending
-                                            width='50'
-                                            height='55'
-                                            strokeWidth='1'
-                                        />
-                                        <p>Promote Best Tours</p>
-                                    </div>
-                                </Col>
-                                <Col lg='3' md='6' sm='6'>
-                                    <div className='svg-card-2'>
-                                        <Monitor
-                                            width='55'
-                                            height='55'
-                                            strokeWidth='1'
-                                        />
-                                        <p>Showcase Tourist Spot</p>
-                                    </div>
-                                </Col>
-                                <Col lg='3' md='6' sm='6'>
-                                    <div className='svg-card-2'>
-                                        <Flag
-                                            width='55'
-                                            height='55'
-                                            strokeWidth='1'
-                                        />
-                                        <p>Best Travel Routes</p>
-                                    </div>
-                                </Col>
-                                <Col lg='3' md='6' sm='6'>
-                                    <div className='svg-card-2'>
-                                        <MapPin
-                                            width='55'
-                                            height='55'
-                                            strokeWidth='1'
-                                        />
-                                        <p>Tour Guides</p>
-                                    </div>
-                                </Col>
-                            </Row>
-                        </section>
-                    </Container>
+            <div className='services'>
+                <div className='services__wrapped'>
+                    <div className='services__subComponent' id='servicesBody'>
+                        <Container>
+                            <section className='services__svg-group text-center'>
+                                <Row>
+                                    <Col lg='3' md='6' sm='6'>
+                                        <div className='services__svg-card'>
+                                            <Trending
+                                                width='50'
+                                                height='55'
+                                                strokeWidth='1'
+                                                className='services__svg-icon'
+                                            />
+                                            <p>Promote Best Tours</p>
+                                        </div>
+                                    </Col>
+                                    <Col lg='3' md='6' sm='6'>
+                                        <div className='services__svg-card'>
+                                            <Monitor
+                                                width='55'
+                                                height='55'
+                                                strokeWidth='1'
+                                                className='services__svg-icon'
+                                            />
+                                            <p>Showcase Tourist Spot</p>
+                                        </div>
+                                    </Col>
+                                    <Col lg='3' md='6' sm='6'>
+                                        <div className='services__svg-card'>
+                                            <Flag
+                                                width='55'
+                                                height='55'
+                                                strokeWidth='1'
+                                                className='services__svg-icon'
+                                            />
+                                            <p>Best Travel Routes</p>
+                                        </div>
+                                    </Col>
+                                    <Col lg='3' md='6' sm='6'>
+                                        <div className='services__svg-card'>
+                                            <MapPin
+                                                width='55'
+                                                height='55'
+                                                strokeWidth='1'
+                                                className='services__svg-icon'
+                                            />
+                                            <p>Tour Guides</p>
+                                        </div>
+                                    </Col>
+                                </Row>
+                            </section>
+                        </Container>
+                    </div>
                 </div>
             </div>
         )

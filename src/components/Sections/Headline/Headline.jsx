@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { Button } from 'reactstrap'
-import './Headline.scss'
+import './Headline.css'
 
 const Headline = () => {
     return (
@@ -10,10 +10,17 @@ const Headline = () => {
             <div className='headline__container'>
                 <main className='cover-page' id='hero'>
                     <section className='wrapped-page'>
-                        <div className='item-center'>
-                            <h1>Manila Tourism</h1>
-                            <h3>Tours | Travel | Guide</h3>
-                            <Button outline color='warning' href='#about'>
+                        <div className='headline__text'>
+                            <h1 className='headline__title'>Manila Tourism</h1>
+                            <h3 className='headline__subtitle'>
+                                Tours | Travel | Guide
+                            </h3>
+                            <Button
+                                outline
+                                color='warning'
+                                href='#about'
+                                className='headline__button'
+                            >
                                 Explore More
                             </Button>
                         </div>
