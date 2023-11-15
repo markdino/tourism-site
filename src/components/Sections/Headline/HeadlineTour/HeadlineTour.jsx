@@ -7,11 +7,11 @@ import CarouselTour from '../../../Carousel/CarouselTour'
 class HeadlineTour extends Component {
     render() {
         return (
-            <section className='article__headline tour-cover item-center'>
+            <section className='headlineTour tour-cover item-center'>
                 <CarouselTour />
-                <div className='article__name'>
-                    <h1 className='article__title'>Seaside Resort</h1>
-                    <h4 className='article__subtitle'>
+                <div className='headlineTour__name'>
+                    <h1 className='headlineTour__title'>Seaside Resort</h1>
+                    <h4 className='headlineTour__subtitle'>
                         Batangas Resort
                     </h4>
                 </div>
