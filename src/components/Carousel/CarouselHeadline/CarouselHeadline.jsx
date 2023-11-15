@@ -101,22 +101,22 @@ class CarouselHeadline extends Component {
                 onExiting={this.onExiting}
                 onExited={this.onExited}
                 key={item.src}
-                className={`locationsCarousel__item ${
+                className={`carouselHeadline__item ${
                     index === activeIndex
-                        ? 'locationsCarousel__item--active'
+                        ? 'carouselHeadline__item--active'
                         : ''
                 }`}
             >
-                <div className='locationsCarousel__overlay'></div>
+                <div className='carouselHeadline__overlay'></div>
                 <img
                     src={item.src}
                     alt={item.altText}
-                    className='locationsCarousel__image'
+                    className='carouselHeadline__image'
                 />
                 <CarouselCaption
                     captionText={item.altText}
                     captionHeader={item.caption}
-                    className='locationsCarousel__caption'
+                    className='carouselHeadline__caption'
                 />
             </CarouselItem>
         ))
@@ -126,26 +126,26 @@ class CarouselHeadline extends Component {
                 activeIndex={activeIndex}
                 next={this.next}
                 previous={this.previous}
-                className='headline__carousel'
+                className='carouselHeadline__carousel'
             >
                 <CarouselIndicators
                     items={items}
                     activeIndex={activeIndex}
                     onClickHandler={this.goToIndex}
-                    className='locationsCarousel__indicators'
+                    className='carouselHeadline__indicators'
                 />
                 {slides}
                 {/* <CarouselControl
                     direction='prev'
                     directionText='Previous'
                     onClickHandler={this.previous}
-                    className='locationsCarousel__control locationsCarousel__control--prev'
+                    className='carouselHeadline__control carouselHeadline__control--prev'
                 /> */}
                 {/* <CarouselControl
                     direction='next'
                     directionText='Next'
                     onClickHandler={this.next}
-                    className='locationsCarousel__control locationsCarousel__control--next'
+                    className='carouselHeadline__control carouselHeadline__control--next'
                 /> */}
             </Carousel>
         )

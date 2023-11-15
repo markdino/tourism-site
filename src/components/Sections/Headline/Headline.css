@@ -131,6 +131,7 @@
     bottom: 10rem;
     margin: 0 auto;
     background-color: #3a3a3a8c;
+    z-index: 1003;
 }
 
 .locationsCarousel__overlay {

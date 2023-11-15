@@ -1,0 +1,35 @@
+.reviews {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+.reviews__container {
+    text-align: center;
+}
+
+.reviews__header {
+    margin-bottom: 30px;
+}
+
+.reviews__form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.reviews__row {
+    margin-bottom: 20px;
+}
+
+.reviews__col {
+    margin-bottom: 15px;
+}
+
+.reviews__input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.reviews__send {}

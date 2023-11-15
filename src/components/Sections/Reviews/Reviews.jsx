@@ -48,7 +48,7 @@ class Reviews extends Component {
                             <Button
                                 outline
                                 color='secondary'
-                                className='float-right reviews__send'
+                                className='float-right reviews__send reviews__row'
                             >
                                 Submit
                             </Button>
