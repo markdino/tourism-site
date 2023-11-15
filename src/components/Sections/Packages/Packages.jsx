@@ -150,7 +150,7 @@ class Packages extends Component {
                                     ))}
                                 </div>
                                 <Row className='packages__destines'>
-                                    <CardColumns>
+                                    <CardColumns className='packages__list'>
                                         {category !== 'all'
                                             ? cards.map((tourcard) => {
                                                   return tourcard.category.map(

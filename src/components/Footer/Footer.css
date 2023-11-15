@@ -1,0 +1,15 @@
+.footer__text {
+    font-family: 'Nunito', sans-serif;
+    line-height: 2rem;
+    margin: 0;
+}
+
+.footer__content {
+    padding: 3rem 0 0;
+}
+
+.footer__social-card {}
+
+.footer__social-cards {
+    justify-content: center;
+}

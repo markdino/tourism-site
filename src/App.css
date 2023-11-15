@@ -131,12 +131,13 @@
 }
 
 #contactBody {
-    background: #6d613c;
+    background: #98d3a6;
     color: rgba(0, 0, 0, 0.7);
 }
 
 #footerBody {
-    background: #383322;
+    background: #8992b6;
+    /* background-image: linear-gradient(to bottom, #abdee7 , #1299b0); */
     color: rgba(0, 0, 0, 0.7);
 }
 
@@ -148,7 +149,7 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
-.svg-card-2 {
+/* .svg-card-2 {
     color: #ffffff;
     padding: 30px;
     margin: 10px;
@@ -161,7 +162,7 @@
     border-width: 2px;
     border-color: #e0e0e0;
     background: rgba(255, 255, 255, 0.3);
-}
+} */
 
 .svg-card-3 {
     padding: 30px;

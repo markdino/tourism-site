@@ -14,7 +14,7 @@ import './CardTour.css'
 const TourCard = ({ tourcard }) => {
     const { img, alt, title, subtitle } = tourcard
     return (
-        <Card>
+        <Card className="cardTour">
             <CardImg top width='100%' src={img} alt={alt} />
             <CardBody>
                 <Button

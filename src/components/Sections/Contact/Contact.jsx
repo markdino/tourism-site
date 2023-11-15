@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react'
 import { Container, Row, Col, Button } from 'reactstrap'
-import './Contact.scss'
+import './Contact.css'
 import { ReactComponent as Phone } from '../../../assets/svg/phone.svg'
 import { ReactComponent as MapPin } from '../../../assets/svg/map-pin.svg'
 import { ReactComponent as Mail } from '../../../assets/svg/mail.svg'
@@ -12,83 +12,90 @@ class Contact extends Component {
         return (
             <div className='subComponent-lg' id='contactBody'>
                 <Container>
-                    <header className='headerTitle text-center'>
-                        <h1>Contact</h1>
+                    <header className='headerTitle'>
+                        <h1 className='contact__title'>Contact</h1>
                         <p>GET IN TOUCH WITH US</p>
                     </header>
-                    <section className='svg-group text-center'>
-                        <Row>
-                            <Col lg='4' md='4'>
-                                <div className='svg-card-3'>
+                    <Row className='svg-group text-center'>
+                        <Col lg='6' md='6'>
+                            <Row lg='3' md='3'>
+                                <Col className='contact__card'>
                                     <Phone
                                         width='50'
                                         height='55'
                                         strokeWidth='1'
                                     />
                                     <p>0912 345 6789</p>
-                                </div>
-                            </Col>
-                            <Col lg='4' md='4'>
-                                <div className='svg-card-3'>
-                                    <MapPin
-                                        width='55'
-                                        height='55'
-                                        strokeWidth='1'
-                                    />
-                                    <p>Manila City, Philippines</p>
-                                </div>
-                            </Col>
-                            <Col lg='4' md='4'>
-                                <div className='svg-card-3'>
+                                </Col>
+                                <Col className='contact__card'>
                                     <Mail
                                         width='55'
                                         height='55'
                                         strokeWidth='1'
                                     />
                                     <p>manilatourism@manila.ph</p>
-                                </div>
-                            </Col>
-                        </Row>
-                    </section>
-                    <hr />
-                    <br />
-                    <section className='msg text-center'>
-                        <form action=''>
-                            <Row>
-                                <Col sm='6'>
+                                </Col>
+                            </Row>
+                            <Row lg='3' md='3'>
+                                <Col className='contact__card'>
+                                    <MapPin
+                                        width='55'
+                                        height='55'
+                                        strokeWidth='1'
+                                    />
+                                    <p>Manila City, Philippines</p>
+                                </Col>
+                                <Col className='contact__card'>
+                                    <Mail
+                                        width='55'
+                                        height='55'
+                                        strokeWidth='1'
+                                    />
+                                    <p>manilatourism@manila.ph</p>
+                                </Col>
+                            </Row>
+                        </Col>
+                        <Col lg='6' md='6'>
+                            <Row className="contact__form">
+                                <form action='' className="contact__entry">
                                     <input
                                         type='text'
                                         name='Name'
                                         id='reviewer-name'
                                         placeholder='Your Name'
                                         required
+                                        className='contact__input'
                                     />
-                                    <br />
                                     <input
                                         type='email'
                                         name='Email'
                                         id='reviewer-email'
                                         placeholder='Your email'
                                         required
+                                        className='contact__input'
                                     />
-                                </Col>
-                                <Col>
                                     <textarea
                                         name='Message'
                                         id='reviewer-message'
                                         rows='4'
                                         placeholder='Your Message'
+                                        className='contact__input'
                                     />
                                     <Button
                                         outline
                                         color='light'
-                                        className='float-left'
+                                        className='contact__button float-left'
                                     >
                                         Send Message
                                     </Button>
-                                </Col>
+                                </form>
                             </Row>
-                        </form>
+                        </Col>
+                    </Row>
+                    <hr />
+                    <br />
+                    <section className='msg text-center'>
+                      
                     </section>
                 </Container>
             </div>

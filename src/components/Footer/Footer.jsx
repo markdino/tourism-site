@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react'
 import { Container, Row, Col } from 'reactstrap'
-import './Footer.scss'
+import './Footer.css'
 import { ReactComponent as FacebookIcon } from '../../assets/svg/facebook.svg'
 import { ReactComponent as TwitterIcon } from '../../assets/svg/twitter.svg'
 import { ReactComponent as LinkedinIcon } from '../../assets/svg/linkedin.svg'
@@ -14,16 +14,16 @@ class Footer extends Component {
             <div className='footer subComponent-lg' id='footerBody'>
                 <Container>
                     <header className='footer__header text-center'>
-                        <p>
+                        <p className='footer__text'>
                             <b>CAN'T WAIT TO GET INVOLVED</b>
                         </p>
-                        <p>
+                        <p className='footer__text'>
                             <b>CONNECT WITH US NOW</b>
                         </p>
                     </header>
                     <footer className='footer__content text-center'>
-                        <Row>
-                            <Col md='3' xs='6'>
+                        <Row className="footer__social-cards">
+                            <Col md='1' xs='6'>
                                 <div className='footer__social-card'>
                                     <a href='#'>
                                         <FacebookIcon
@@ -35,7 +35,7 @@ class Footer extends Component {
                                     </a>
                                 </div>
                             </Col>
-                            <Col md='3' xs='6'>
+                            <Col md='1' xs='6'>
                                 <div className='footer__social-card'>
                                     <a href='#'>
                                         <TwitterIcon
@@ -47,7 +47,7 @@ class Footer extends Component {
                                     </a>
                                 </div>
                             </Col>
-                            <Col md='3' xs='6'>
+                            <Col md='1' xs='6'>
                                 <div className='footer__social-card'>
                                     <a href='#'>
                                         <LinkedinIcon
@@ -59,7 +59,7 @@ class Footer extends Component {
                                     </a>
                                 </div>
                             </Col>
-                            <Col md='3' xs='6'>
+                            <Col md='1' xs='6'>
                                 <div className='footer__social-card'>
                                     <a href='#'>
                                         <InstagramIcon
@@ -74,7 +74,7 @@ class Footer extends Component {
                         </Row>
                         <hr />
                         <br />
-                        <p>copyright 2019 | Manila Tourism Philippines</p>
+                        <p>© Copyright, 2023 | ManTOUR - Manila Tourism PHI</p>
                     </footer>
                 </Container>
             </div>
