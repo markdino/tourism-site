@@ -11,10 +11,11 @@ import {
 } from 'reactstrap'
 import './CardTour.css'
 
-const TourCard = ({ tourcard }) => {
+const CardTour = ({ tourcard }) => {
+    console.log(')000000', tourcard)
     const { img, alt, title, subtitle } = tourcard
     return (
-        <Card className="cardTour">
+        <Card className='cardTour'>
             <CardImg top width='100%' src={img} alt={alt} />
             <CardBody>
                 <Button
@@ -31,4 +32,4 @@ const TourCard = ({ tourcard }) => {
         </Card>
     )
 }
-export default TourCard
+export default CardTour

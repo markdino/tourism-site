@@ -8,7 +8,8 @@
     font-weight: 900;
 }
 
-.packages__body {}
+.packages__body {
+}
 
 .packages__filter {
     display: inline-flex;
@@ -16,7 +17,7 @@
 }
 
 .packages__badge {
-    font-size: .9rem !important;
+    font-size: 0.9rem !important;
     cursor: pointer;
     text-transform: capitalize;
     font-weight: 500 !important;
@@ -24,9 +25,11 @@
 
 .packages__destines {
     padding: 2rem 0;
+    gap: 1rem;
 }
 
-.packages__cardTour {}
+.packages__cardTour {
+}
 .packages__list {
     display: flex;
     flex-wrap: wrap;

@@ -1,18 +1,22 @@
 .contact__card {
-    color: #ffffff;
+    color: #000;
     padding: 30px;
-    margin: 10px;
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
     border: 2px solid transparent;
+    background: rgba(255, 255, 255, 0.3);
+    column-gap: 2rem;
+}
+
+.contact__subtitle {
+    width: 100%;
 }
 
 .contact__card:hover {
     border-style: solid;
     border-width: 2px;
     border-color: #e0e0e0;
-    background: rgba(255, 255, 255, 0.3);
 }
 
 .contact__title {
@@ -35,8 +39,8 @@
 
 .contact__input {
     width: 60%;
-    border-radius: 10px;
-    padding: .5rem;
+    border-radius: 5px;
+    padding: 0.5rem;
     border: 1px solid gray;
 }
 

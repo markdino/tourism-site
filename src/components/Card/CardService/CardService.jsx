@@ -1,9 +1,7 @@
 /** @format */
 
 import React from 'react'
-import {
-    Col
-} from 'reactstrap'
+import { Col } from 'reactstrap'
 import './CardService.css'
 
 const CardService = ({ classname, icon, text }) => {

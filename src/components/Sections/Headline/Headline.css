@@ -13,13 +13,13 @@
 .headline__container {
     position: relative;
 }
-.headline__title  {
+.headline__title {
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
     font-size: 5rem;
     color: #fff;
 }
-.headline__subtitle{
+.headline__subtitle {
     color: #fff;
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
@@ -49,7 +49,6 @@
     font-family: 'Poppins', sans-serif;
     /* text-shadow: 3px 3px 10px black; */
 }
-
 
 /* article */
 .article__container {
@@ -88,9 +87,9 @@
     padding: 0 2rem;
 }
 .article__desc h4 {
-   font-size: 3rem;
-   font-family: 'Poppins';
-   font-weight: 900;
+    font-size: 3rem;
+    font-family: 'Poppins';
+    font-weight: 900;
 }
 .article__desc--first {
 }
@@ -116,15 +115,17 @@
     background-color: #3a3a3a8c;
 }
 
-
-
-
 .locationsCarousel__overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.5); /* Ajuste o último valor (0.5) para controlar a opacidade da sobreposição */
+    background: rgba(
+        0,
+        0,
+        0,
+        0.5
+    ); /* Ajuste o último valor (0.5) para controlar a opacidade da sobreposição */
     z-index: 1;
 }

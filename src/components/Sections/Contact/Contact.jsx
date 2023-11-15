@@ -18,46 +18,31 @@ class Contact extends Component {
                     </header>
                     <Row className='svg-group text-center'>
                         <Col lg='6' md='6'>
-                            <Row lg='3' md='3'>
-                                <Col className='contact__card'>
-                                    <Phone
-                                        width='50'
-                                        height='55'
-                                        strokeWidth='1'
-                                    />
-                                    <p>0912 345 6789</p>
-                                </Col>
-                                <Col className='contact__card'>
-                                    <Mail
-                                        width='55'
-                                        height='55'
-                                        strokeWidth='1'
-                                    />
-                                    <p>manilatourism@manila.ph</p>
-                                </Col>
+                            <Row lg='3' md='3' className='contact__card'>
+                                <Phone width='50' height='55' strokeWidth='1' />
+                                <p>0912 345 6789</p>
                             </Row>
-                            <Row lg='3' md='3'>
-                                <Col className='contact__card'>
-                                    <MapPin
-                                        width='55'
-                                        height='55'
-                                        strokeWidth='1'
-                                    />
-                                    <p>Manila City, Philippines</p>
-                                </Col>
-                                <Col className='contact__card'>
-                                    <Mail
-                                        width='55'
-                                        height='55'
-                                        strokeWidth='1'
-                                    />
-                                    <p>manilatourism@manila.ph</p>
-                                </Col>
+                            <Row lg='3' md='3' className='contact__card'>
+                                <Mail width='55' height='55' strokeWidth='1' />
+                                <p>manilatourism@manila.ph</p>
+                            </Row>
+                            <Row lg='3' md='3' className='contact__card'>
+                                <MapPin
+                                    width='55'
+                                    height='55'
+                                    strokeWidth='1'
+                                />
+                                <p>Manila City, Philippines</p>
+                            </Row>
+                            <Row lg='3' md='3' className='contact__card'>
+                                <Mail width='55' height='55' strokeWidth='1' />
+                                <p>manilatourism@manila.ph</p>
                             </Row>
                         </Col>
                         <Col lg='6' md='6'>
-                            <Row className="contact__form">
-                                <form action='' className="contact__entry">
+                            <Row className='contact__form'>
+                                <h4 className='contact__subtitle'>Send us</h4>
+                                <form action='' className='contact__entry'>
                                     <input
                                         type='text'
                                         name='Name'
@@ -93,9 +78,7 @@ class Contact extends Component {
                         </Col>
                     </Row>
                     <br />
-                    <section className='msg text-center'>
-                      
-                    </section>
+                    <section className='msg text-center'></section>
                 </Container>
             </div>
         )

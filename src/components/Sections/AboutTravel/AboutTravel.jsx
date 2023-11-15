@@ -7,7 +7,7 @@ import { ReactComponent as Award } from '../../../assets/svg/award.svg'
 import { ReactComponent as Shield } from '../../../assets/svg/shield.svg'
 import { ReactComponent as Compass } from '../../../assets/svg/compass.svg'
 import { ReactComponent as Heart } from '../../../assets/svg/heart.svg'
-import CardAbout from "../../Card/CardAbout"
+import CardAbout from '../../Card/CardAbout'
 import './AboutTravel.css'
 
 const AboutTravel = () => {
@@ -36,7 +36,7 @@ const AboutTravel = () => {
                                                 strokeWidth='1'
                                             />
                                         }
-                                        text="Best Price Guarantee"
+                                        text='Best Price Guarantee'
                                     />
                                     <CardAbout
                                         classname='aboutTravel__card'
@@ -47,7 +47,7 @@ const AboutTravel = () => {
                                                 strokeWidth='1'
                                             />
                                         }
-                                        text="Best Price Guarantee"
+                                        text='Best Price Guarantee'
                                     />
                                     <CardAbout
                                         classname='aboutTravel__card'
@@ -58,7 +58,7 @@ const AboutTravel = () => {
                                                 strokeWidth='1'
                                             />
                                         }
-                                        text="Best Price Guarantee"
+                                        text='Best Price Guarantee'
                                     />
                                     <CardAbout
                                         classname='aboutTravel__card'
@@ -69,7 +69,7 @@ const AboutTravel = () => {
                                                 strokeWidth='1'
                                             />
                                         }
-                                        text="Best Price Guarantee"
+                                        text='Best Price Guarantee'
                                     />
                                 </Row>
                             </section>

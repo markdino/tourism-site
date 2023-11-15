@@ -18,13 +18,12 @@ class Header extends React.Component {
     constructor(props) {
         super(props)
 
-        this.toggle = this.toggle.bind(this)
-        this.handleScroll = this.handleScroll.bind(this)
-
         this.state = {
             isOpen: false,
             scrolledPast: false,
         }
+
+        this.handleScroll = this.handleScroll.bind(this)
     }
 
     componentDidMount() {
@@ -37,23 +36,13 @@ class Header extends React.Component {
 
     handleScroll() {
         const scrolledPast = window.scrollY > window.innerHeight
+
         if (scrolledPast !== this.state.scrolledPast) {
             this.setState({ scrolledPast })
         }
     }
 
-    toggle() {
-        this.setState({
-            isOpen: !this.state.isOpen,
-        })
-    }
-
     render() {
-        const { scrolledPast } = this.state
-        const navbarClassName = scrolledPast
-            ? 'header__navbar navDark scrolled'
-            : 'header__navbar navDark'
-
         return (
             <div>
                 <Navbar
@@ -61,7 +50,7 @@ class Header extends React.Component {
                     dark
                     expand='md'
                     fixed={`top`}
-                    className={navbarClassName}
+                    className={this.state.scrolledPast ? 'scrolled' : ''}
                 >
                     <Container>
                         <NavbarBrand href='#' className='header__brand'>

@@ -1,6 +1,6 @@
 /** @format */
 
-import React, { Component} from 'react'
+import React, { Component } from 'react'
 import { Button } from 'reactstrap'
 import './Headline.css'
 
@@ -16,26 +16,19 @@ import {
 
 const items = [
     {
+        id: 1,
         src: resort,
         altText: '',
         caption: '',
     },
     {
+        id: 2,
         src: resort,
         altText: '',
         caption: '',
     },
     {
-        src: resort,
-        altText: '',
-        caption: '',
-    },
-    {
-        src: resort,
-        altText: '',
-        caption: '',
-    },
-    {
+        id: 3,
         src: resort,
         altText: '',
         caption: '',
@@ -84,8 +77,25 @@ class Headline extends Component {
         this.setState({ activeIndex: newIndex })
     }
 
+    startCarousel() {
+        this.carouselInterval = setInterval(() => {
+            this.next()
+        }, 5000)
+    }
+
+    componentDidMount() {
+        this.startCarousel()
+    }
+
+    stopCarousel() {
+        clearInterval(this.carouselInterval)
+    }
+
+    componentWillUnmount() {
+        this.stopCarousel()
+    }
+
     render() {
-        
         const { activeIndex } = this.state
 
         const slides = items.map((item, index) => (
@@ -99,7 +109,7 @@ class Headline extends Component {
                         : ''
                 }`}
             >
-                <div className="locationsCarousel__overlay"></div>
+                <div className='locationsCarousel__overlay'></div>
                 <img
                     src={item.src}
                     alt={item.altText}
@@ -116,8 +126,6 @@ class Headline extends Component {
         return (
             <section className='headline'>
                 <div className='headline__container'>
-
-
                     <Carousel
                         activeIndex={activeIndex}
                         next={this.next}

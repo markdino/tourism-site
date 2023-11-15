@@ -1,6 +1,9 @@
 .cardTour {
     width: calc(33% - 1rem) !important;
 }
+.cardTour img {
+    max-height: 300px !important;
+}
 .cardTour:nth-child(1) {
     width: calc(66% - 1rem) !important;
 }

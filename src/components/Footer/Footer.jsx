@@ -22,7 +22,7 @@ class Footer extends Component {
                         </p>
                     </header>
                     <footer className='footer__content text-center'>
-                        <Row className="footer__social-cards">
+                        <Row className='footer__social-cards'>
                             <Col md='1' xs='6'>
                                 <div className='footer__social-card'>
                                     <a href='#'>

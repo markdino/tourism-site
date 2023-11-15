@@ -13,10 +13,12 @@ import CardService from '../../Card/CardService/CardService'
 class Services extends Component {
     render() {
         return (
-
             <div className='services'>
                 <div className='services__wrapped'>
-                    <div className='services__subComponent subComponent' id='servicesBody'>
+                    <div
+                        className='services__subComponent subComponent'
+                        id='servicesBody'
+                    >
                         <Container>
                             <section className='services__svg-group svg-group text-center'>
                                 <Row>
@@ -24,13 +26,13 @@ class Services extends Component {
                                         classname='services__card'
                                         icon={
                                             <Trending
-                                            width='50'
-                                            height='55'
-                                            strokeWidth='1'
-                                            className='services__svg-icon'
-                                        />
+                                                width='50'
+                                                height='55'
+                                                strokeWidth='1'
+                                                className='services__svg-icon'
+                                            />
                                         }
-                                        text="Promote Best Tours"
+                                        text='Promote Best Tours'
                                     />
                                     <CardService
                                         classname='services__card'
@@ -42,7 +44,7 @@ class Services extends Component {
                                                 className='services__svg-icon'
                                             />
                                         }
-                                        text="Showcase Tourist Spote"
+                                        text='Showcase Tourist Spote'
                                     />
                                     <CardService
                                         classname='services__card'
@@ -54,7 +56,7 @@ class Services extends Component {
                                                 className='services__svg-icon'
                                             />
                                         }
-                                        text="Best Travel Route"
+                                        text='Best Travel Route'
                                     />
                                     <CardService
                                         classname='services__card'
@@ -66,7 +68,7 @@ class Services extends Component {
                                                 className='services__svg-icon'
                                             />
                                         }
-                                        text="Tour Guides"
+                                        text='Tour Guides'
                                     />
                                 </Row>
                             </section>

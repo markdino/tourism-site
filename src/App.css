@@ -116,9 +116,23 @@
     padding: 40px 0px 80px 0px;
     margin: 0px;
 }
+.reviews h1 {
+    font-family: 'Poppins';
+    font-weight: 900;
+}
+.reviews p {
+    margin-bottom: 3rem;
+}
+.reviews {
+}
+.reviews {
+}
+.reviews {
+}
+.reviews {
+}
 
 #aboutBody {
-  
 }
 
 .svg-group p {
@@ -130,12 +144,12 @@
 }
 
 #contactBody {
-    background: #98d3a6;
+    /* background: #98d3a6; */
     color: rgba(0, 0, 0, 0.7);
 }
 
 #footerBody {
-    background: #8992b6;
+    background: #f1f1f1;
     /* background-image: linear-gradient(to bottom, #abdee7 , #1299b0); */
     color: rgba(0, 0, 0, 0.7);
 }
