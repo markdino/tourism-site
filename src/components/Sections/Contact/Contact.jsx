@@ -92,7 +92,6 @@ class Contact extends Component {
                             </Row>
                         </Col>
                     </Row>
-                    <hr />
                     <br />
                     <section className='msg text-center'>
                       

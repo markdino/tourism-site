@@ -15,7 +15,7 @@ const AboutTravel = () => {
         <section className='aboutTravel'>
             <div className='aboutTravel__container'>
                 <div id='about'>
-                    <LocationsCarousel />
+                    {/* <LocationsCarousel /> */}
 
                     <div className='subComponent' id='aboutBody'>
                         <Container>
