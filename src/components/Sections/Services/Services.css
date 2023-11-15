@@ -1,0 +1,13 @@
+.services__wrapped {
+    background: url('../../../assets/images//bg2.jpg') center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.services__card {
+    color: #ffffff;
+    padding: 30px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}

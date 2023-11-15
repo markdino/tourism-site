@@ -9,7 +9,7 @@ import {
     CardSubtitle,
     Button,
 } from 'reactstrap'
-import './CardTour.css'
+import './CardContact.scss'
 
 const TourCard = ({ tourcard }) => {
     const { img, alt, title, subtitle } = tourcard

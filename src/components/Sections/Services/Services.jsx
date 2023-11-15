@@ -2,66 +2,72 @@
 
 import React, { Component } from 'react'
 import { Container, Row, Col } from 'reactstrap'
-import './Services.scss'
+import './Services.css'
 
 import { ReactComponent as Trending } from '../../../assets/svg/trending-up.svg'
 import { ReactComponent as Flag } from '../../../assets/svg/flag.svg'
 import { ReactComponent as Monitor } from '../../../assets/svg/monitor.svg'
 import { ReactComponent as MapPin } from '../../../assets/svg/map-pin.svg'
+import CardService from '../../Card/CardService/CardService'
 
 class Services extends Component {
     render() {
         return (
+
             <div className='services'>
                 <div className='services__wrapped'>
-                    <div className='services__subComponent' id='servicesBody'>
+                    <div className='services__subComponent subComponent' id='servicesBody'>
                         <Container>
-                            <section className='services__svg-group text-center'>
+                            <section className='services__svg-group svg-group text-center'>
                                 <Row>
-                                    <Col lg='3' md='6' sm='6'>
-                                        <div className='services__svg-card'>
+                                    <CardService
+                                        classname='services__card'
+                                        icon={
                                             <Trending
-                                                width='50'
-                                                height='55'
-                                                strokeWidth='1'
-                                                className='services__svg-icon'
-                                            />
-                                            <p>Promote Best Tours</p>
-                                        </div>
-                                    </Col>
-                                    <Col lg='3' md='6' sm='6'>
-                                        <div className='services__svg-card'>
+                                            width='50'
+                                            height='55'
+                                            strokeWidth='1'
+                                            className='services__svg-icon'
+                                        />
+                                        }
+                                        text="Promote Best Tours"
+                                    />
+                                    <CardService
+                                        classname='services__card'
+                                        icon={
                                             <Monitor
                                                 width='55'
                                                 height='55'
                                                 strokeWidth='1'
                                                 className='services__svg-icon'
                                             />
-                                            <p>Showcase Tourist Spot</p>
-                                        </div>
-                                    </Col>
-                                    <Col lg='3' md='6' sm='6'>
-                                        <div className='services__svg-card'>
+                                        }
+                                        text="Showcase Tourist Spote"
+                                    />
+                                    <CardService
+                                        classname='services__card'
+                                        icon={
                                             <Flag
                                                 width='55'
                                                 height='55'
                                                 strokeWidth='1'
                                                 className='services__svg-icon'
                                             />
-                                            <p>Best Travel Routes</p>
-                                        </div>
-                                    </Col>
-                                    <Col lg='3' md='6' sm='6'>
-                                        <div className='services__svg-card'>
+                                        }
+                                        text="Best Travel Route"
+                                    />
+                                    <CardService
+                                        classname='services__card'
+                                        icon={
                                             <MapPin
                                                 width='55'
                                                 height='55'
                                                 strokeWidth='1'
                                                 className='services__svg-icon'
                                             />
-                                            <p>Tour Guides</p>
-                                        </div>
-                                    </Col>
+                                        }
+                                        text="Tour Guides"
+                                    />
                                 </Row>
                             </section>
                         </Container>

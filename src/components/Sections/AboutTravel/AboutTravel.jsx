@@ -7,6 +7,7 @@ import { ReactComponent as Award } from '../../../assets/svg/award.svg'
 import { ReactComponent as Shield } from '../../../assets/svg/shield.svg'
 import { ReactComponent as Compass } from '../../../assets/svg/compass.svg'
 import { ReactComponent as Heart } from '../../../assets/svg/heart.svg'
+import CardAbout from "../../Card/CardAbout"
 import './AboutTravel.css'
 
 const AboutTravel = () => {
@@ -26,66 +27,50 @@ const AboutTravel = () => {
                             </header>
                             <section className='svg-group text-center subComponent'>
                                 <Row className='aboutTravel__cards'>
-                                    <Col
-                                        className='aboutTravel__card'
-                                        lg='3'
-                                        md='6'
-                                        sm='6'
-                                    >
-                                        <div className='svg-card'>
+                                    <CardAbout
+                                        classname='aboutTravel__card'
+                                        icon={
                                             <Award
                                                 width='48'
                                                 height='48'
                                                 strokeWidth='1'
                                             />
-                                            <p>Best Price Guarantee</p>
-                                        </div>
-                                    </Col>
-                                    <Col
-                                        className='aboutTravel__card'
-                                        lg='3'
-                                        md='6'
-                                        sm='6'
-                                    >
-                                        <div className='svg-card'>
+                                        }
+                                        text="Best Price Guarantee"
+                                    />
+                                    <CardAbout
+                                        classname='aboutTravel__card'
+                                        icon={
                                             <Shield
                                                 width='48'
                                                 height='48'
                                                 strokeWidth='1'
                                             />
-                                            <p>Trust and Safety</p>
-                                        </div>
-                                    </Col>
-                                    <Col
-                                        className='aboutTravel__card'
-                                        lg='3'
-                                        md='6'
-                                        sm='6'
-                                    >
-                                        <div className='svg-card'>
+                                        }
+                                        text="Best Price Guarantee"
+                                    />
+                                    <CardAbout
+                                        classname='aboutTravel__card'
+                                        icon={
                                             <Heart
                                                 width='48'
                                                 height='48'
                                                 strokeWidth='1'
                                             />
-                                            <p>Best Travel Agent</p>
-                                        </div>
-                                    </Col>
-                                    <Col
-                                        className='aboutTravel__card'
-                                        lg='3'
-                                        md='6'
-                                        sm='6'
-                                    >
-                                        <div className='svg-card'>
+                                        }
+                                        text="Best Price Guarantee"
+                                    />
+                                    <CardAbout
+                                        classname='aboutTravel__card'
+                                        icon={
                                             <Compass
                                                 width='48'
                                                 height='48'
                                                 strokeWidth='1'
                                             />
-                                            <p>Travel Insurance</p>
-                                        </div>
-                                    </Col>
+                                        }
+                                        text="Best Price Guarantee"
+                                    />
                                 </Row>
                             </section>
                         </Container>
