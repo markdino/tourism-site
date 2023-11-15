@@ -11,32 +11,22 @@ import imgCard4 from '../assets/images/img-card (4).jpg'
 
 const Tour = () => (
     <div className='subComponent'>
+        <section className='tour-cover item-center'>
+            <img src={imgCard1} alt='' />
+        </section>
         <Container>
-            <section className='tour-cover item-center'>
-                <img src={imgCard1} alt='' />
-                <h1>Seaside Resort</h1>
-                <h4>Batangas Resort</h4>
-            </section>
-            <section className='tour-info'>
-                <Row>
-                    <Col sm='8'>
-                        <div className='tour-desc'>
+            <section className='tour-info article__content'>
+                <h1 className='article__title'>Seaside Resort</h1>
+                <h4 className='article__subtitle'>Batangas Resort</h4>
+                <Row className="article__row">
+                    <Col sm='5'>
+                        <div className='article__desc'>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit. In imperdiet, sem id vehicula
                                 lacinia, mi purus lacinia mauris, vitae mollis
                                 nisl elit in lorem. Suspendisse potenti. Cras
-                                elementum ullamcorper tortor, rutrum convallis
-                                nunc tempor tristique. Donec ut ipsum vel mauris
-                                hendrerit efficitur. Nullam eget massa interdum,
-                                euismod nunc ac, maximus risus. Aliquam nec
-                                rhoncus tortor. Suspendisse nulla diam,
-                                hendrerit a metus vitae, rutrum hendrerit nisl.
-                                Nulla vel venenatis massa. Mauris lacinia
-                                porttitor ex, a egestas nisi fringilla vitae.
-                                Nam fringilla leo ante, id interdum sapien
-                                facilisis vel. Morbi ut suscipit nulla. Sed
-                                vitae tempus elit, at laoreet urna.
+                                elementum u
                             </p>
                             <p>
                                 Morbi facilisis, odio vitae egestas pretium,
@@ -45,32 +35,94 @@ const Tour = () => (
                                 vitae volutpat. Fusce vitae laoreet sem. Integer
                                 a justo sit amet nibh vehicula blandit.
                                 Suspendisse faucibus venenatis egestas. In
-                                vulputate sapien sit amet ligula vulputate, in
-                                consequat ex molestie. Curabitur hendrerit
-                                pulvinar vehicula. Phasellus quis posuere
-                                tortor. Cras pellentesque vehicula dui nec
-                                fermentum. Sed venenatis nunc justo. Quisque
-                                metus est, volutpat quis scelerisque in,
-                                fermentum sed lacus. Sed sed pretium massa.
-                                Aenean imperdiet molestie turpis at egestas.
+                                vulputa
                             </p>
                         </div>
                     </Col>
-                    <Col sm='4'>
+                    <Col sm='7'>
                         <div className='tour-gallery'>
-                            <a href={imgCard1}>
-                                <img src={imgCard1} alt='' />
-                            </a>
                             <a href={imgCard2}>
                                 <img src={imgCard2} alt='' />
                             </a>
-                            <a href={imgCard3}>
+                        </div>
+                    </Col>
+                </Row>
+                <Row className="article__row">
+                    <Col sm='3'>
+                        <div className='article__desc'>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. In imperdiet, sem id vehicula
+                                lacinia, mi purus lacinia mauris, vitae mollis
+                                nisl eli
+                            </p>
+                            <p>
+                                Morbi facilisis, odio vitae egestas pretium,
+                                mauris tortor vulputate dolor, non interdum nunc
+                                tellus at dolor. Donec condimentum et augue
+                                vitae volutpat. Fusce vitae laoreet sem. Integer
+                                a justo sit amet nibh vehicula blandit.
+                                Suspendisse fau
+                            </p>
+                        </div>
+                    </Col>
+                    <Col sm='9'>
+                        <div className='tour-gallery'>
+                            <a href={imgCard1}>
                                 <img src={imgCard3} alt='' />
                             </a>
-                            <a href={imgCard4}>
+                        </div>
+                    </Col>
+                </Row>
+                <Row className="article__row">
+                    <Col sm='3'>
+                        <div className='article__desc'>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. In imperdiet, sem id vehicula
+                                lacinia, mi purus lacinia mauris, vitae mollis
+                                nisl elit in lorem. Suspendisse potenti. Cras
+                                elementum u
+                            </p>
+                            <p>
+                                Morbi facilisis, odio vitae egestas pretium,
+                                mauris tortor vulputate dolor, non interdum nunc
+                                tellus at dolor. Donec condimentum et augue
+                                vitae volutpat. Fusce vitae laoreet sem. Integer
+                                a justo sit amet nibh vehicula blandit.
+                                Suspendisse faucibus venenatis egestas. In
+                                vulputa
+                            </p>
+                        </div>
+                    </Col>
+                    <Col sm='9'>
+                        <div className='tour-gallery'>
+                            <a href={imgCard2}>
                                 <img src={imgCard4} alt='' />
                             </a>
                         </div>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md='3'>
+                        <a href={imgCard1} className='article__photos'>
+                            <img src={imgCard1} alt='' />
+                        </a>
+                    </Col>
+                    <Col md='3'>
+                        <a href={imgCard1} className='article__photos'>
+                            <img src={imgCard1} alt='' />
+                        </a>
+                    </Col>
+                    <Col md='3'>
+                        <a href={imgCard1} className='article__photos'>
+                            <img src={imgCard1} alt='' />
+                        </a>
+                    </Col>
+                    <Col md='3'>
+                        <a href={imgCard1} className='article__photos'>
+                            <img src={imgCard1} alt='' />
+                        </a>
                     </Col>
                 </Row>
             </section>

@@ -28,3 +28,29 @@
     font-family: 'Poppins', sans-serif;
     /* text-shadow: 3px 3px 10px black; */
 }
+
+
+/* article */
+
+.article__content {
+    padding: 3rem 0;
+}
+.article__title {
+    font-size: 4rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+}
+.article__subtitle {}
+.article__row {
+    padding: 2rem 0;
+}
+.article__desc {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+}
+
+.article__photos img {
+    width: 100%;
+}
