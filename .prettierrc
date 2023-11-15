@@ -1,0 +1,25 @@
+{
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 4,
+    "printWidth": 80,
+    "jsxSingleQuote": true,
+    "jsxBracketSameLine": false,
+    "arrowParens": "always",
+    "trailingComma": "all",
+    "bracketSpacing": true,
+    "endOfLine": "auto",
+    "overrides": [
+        {
+            "files": ["*.js", "*.jsx"],
+            "options": {
+                "parser": "babel",
+                "insertPragma": true,
+                "pragma": "React",
+                "requirePragma": false
+            }
+        }
+    ],
+    "importOrder": ["^react", "^@\\w", "^\\w", "^\\.\\./", "^\\./"],
+    "importOrderSeparation": true
+}
