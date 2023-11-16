@@ -14,68 +14,62 @@ const AboutTravel = () => {
     return (
         <section className='aboutTravel'>
             <div className='aboutTravel__container'>
-                <div id='about'>
-                    {/* <LocationsCarousel /> */}
-
-                    <div className='subComponent' id='aboutBody'>
-                        <Container>
-                            <header className='headerTitle'>
-                                <h1 className='aboutTravel__title'>
-                                    About Travel
-                                </h1>
-                                <p>Tour Guide & Private Guided Tours</p>
-                            </header>
-                            <section className='svg-group text-center subComponent'>
-                                <Row className='aboutTravel__cards'>
-                                    <CardAbout
-                                        classname='aboutTravel__card'
-                                        icon={
-                                            <Award
-                                                width='48'
-                                                height='48'
-                                                strokeWidth='1'
-                                            />
-                                        }
-                                        text='Best Price Guarantee'
+                <Container>
+                    <header className='headerTitle'>
+                        <h1 className='aboutTravel__title'>
+                            About Travel
+                        </h1>
+                        <p className='aboutTravel__info'>Tour Guide & Private Guided Tours</p>
+                    </header>
+                    <section className='svg-group text-center subComponent'>
+                        <Row className='aboutTravel__cards'>
+                            <CardAbout
+                                classname='aboutTravel__card'
+                                icon={
+                                    <Award
+                                        width='48'
+                                        height='48'
+                                        strokeWidth='1'
                                     />
-                                    <CardAbout
-                                        classname='aboutTravel__card'
-                                        icon={
-                                            <Shield
-                                                width='48'
-                                                height='48'
-                                                strokeWidth='1'
-                                            />
-                                        }
-                                        text='Best Price Guarantee'
+                                }
+                                text='Best Price Guarantee'
+                            />
+                            <CardAbout
+                                classname='aboutTravel__card'
+                                icon={
+                                    <Shield
+                                        width='48'
+                                        height='48'
+                                        strokeWidth='1'
                                     />
-                                    <CardAbout
-                                        classname='aboutTravel__card'
-                                        icon={
-                                            <Heart
-                                                width='48'
-                                                height='48'
-                                                strokeWidth='1'
-                                            />
-                                        }
-                                        text='Best Price Guarantee'
+                                }
+                                text='Best Price Guarantee'
+                            />
+                            <CardAbout
+                                classname='aboutTravel__card'
+                                icon={
+                                    <Heart
+                                        width='48'
+                                        height='48'
+                                        strokeWidth='1'
                                     />
-                                    <CardAbout
-                                        classname='aboutTravel__card'
-                                        icon={
-                                            <Compass
-                                                width='48'
-                                                height='48'
-                                                strokeWidth='1'
-                                            />
-                                        }
-                                        text='Best Price Guarantee'
+                                }
+                                text='Best Price Guarantee'
+                            />
+                            <CardAbout
+                                classname='aboutTravel__card'
+                                icon={
+                                    <Compass
+                                        width='48'
+                                        height='48'
+                                        strokeWidth='1'
                                     />
-                                </Row>
-                            </section>
-                        </Container>
-                    </div>
-                </div>
+                                }
+                                text='Best Price Guarantee'
+                            />
+                        </Row>
+                    </section>
+                </Container>
             </div>
         </section>
     )
