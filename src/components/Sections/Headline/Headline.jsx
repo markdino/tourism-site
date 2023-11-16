@@ -6,12 +6,10 @@ import './Headline.css'
 import CarouselHeadline from '../../Carousel/CarouselHeadline/CarouselHeadline'
 
 class Headline extends Component {
-
     render() {
         return (
             <section className='headline'>
                 <div className='headline__container'>
-
                     <CarouselHeadline />
 
                     <section className='wrapped-page'>

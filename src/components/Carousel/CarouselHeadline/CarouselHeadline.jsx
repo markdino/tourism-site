@@ -33,7 +33,6 @@ const items = [
 ]
 
 class CarouselHeadline extends Component {
-
     constructor(props) {
         super(props)
         this.state = { activeIndex: 0 }

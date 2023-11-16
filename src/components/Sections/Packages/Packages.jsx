@@ -55,9 +55,7 @@ class Packages extends Component {
             <section className='packages'>
                 <Container className='packages__container'>
                     <header className='packages__header'>
-                        <h1 className='packages__title'>
-                            Tour Packages
-                        </h1>
+                        <h1 className='packages__title'>Tour Packages</h1>
                         <p>A Great Collection of Our Tour Packages</p>
                     </header>
                     <section className='packages__body'>
@@ -67,9 +65,7 @@ class Packages extends Component {
                                     key={index}
                                     href=''
                                     color={
-                                        badge === category
-                                            ? 'dark'
-                                            : 'light'
+                                        badge === category ? 'dark' : 'light'
                                     }
                                     onClick={() =>
                                         this.setState({
@@ -85,10 +81,7 @@ class Packages extends Component {
 
                         <Row className='packages__destines'>
                             {cards.map((card) => (
-                                <CardTour
-                                    key={card.id}
-                                    tourcard={card}
-                                />
+                                <CardTour key={card.id} tourcard={card} />
                             ))}
                         </Row>
                     </section>

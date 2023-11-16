@@ -5,7 +5,7 @@ import './Heading.css'
 
 class Heading extends Component {
     render() {
-        return ;
+        return
     }
 }
 

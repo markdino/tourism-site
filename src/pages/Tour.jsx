@@ -8,7 +8,6 @@ import HeadlineTour from '../components/Sections/Headline/HeadlineTour'
 import Article from '../components/Sections/Article'
 
 class Tour extends Component {
-
     render() {
         return (
             <>

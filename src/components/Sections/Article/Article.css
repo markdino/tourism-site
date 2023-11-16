@@ -25,23 +25,27 @@
     background-color: #e1e1e1;
 }
 
-.article__section--bg-fouth {}
+.article__section--bg-fouth {
+}
 
 .article__row {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.article__row__col {}
+.article__row__col {
+}
 
-.article__row__content {}
+.article__row__content {
+}
 
 .article__row__col--desc h4 {
     font-size: 3rem;
-    font-family: "Poppins";
+    font-family: 'Poppins';
     font-weight: 900;
 }
-.article__row__col--desc p {}
+.article__row__col--desc p {
+}
 .article__row__col--desc {
     flex-wrap: wrap;
     align-items: stretch;
@@ -49,9 +53,11 @@
     display: inline-flex;
 }
 
-.tour-gallery {}
+.tour-gallery {
+}
 
-.tour-gallery--first {}
+.tour-gallery--first {
+}
 
 .article__photo {
     max-width: 100%;

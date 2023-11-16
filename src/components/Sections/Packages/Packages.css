@@ -11,11 +11,14 @@
     font-weight: 900;
 }
 
-.packages__header {}
+.packages__header {
+}
 
-.packages__title {}
+.packages__title {
+}
 
-.packages__body {}
+.packages__body {
+}
 
 .packages__filter {
     display: inline-flex;
@@ -34,7 +37,8 @@
     gap: 1rem;
 }
 
-.packages__cardTour {}
+.packages__cardTour {
+}
 
 .packages__list {
     display: flex;

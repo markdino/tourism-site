@@ -11,9 +11,7 @@ class HeadlineTour extends Component {
                 <CarouselTour />
                 <div className='headlineTour__name'>
                     <h1 className='headlineTour__title'>Seaside Resort</h1>
-                    <h4 className='headlineTour__subtitle'>
-                        Batangas Resort
-                    </h4>
+                    <h4 className='headlineTour__subtitle'>Batangas Resort</h4>
                 </div>
             </section>
         )

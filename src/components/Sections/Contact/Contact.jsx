@@ -13,8 +13,12 @@ class Contact extends Component {
             <section className='contact'>
                 <Container className='contact__container'>
                     <Row className='contact__header'>
-                        <h1 className='contact__title contact__title'>Contact</h1>
-                        <p className="contact__description">GET IN TOUCH WITH US</p>
+                        <h1 className='contact__title contact__title'>
+                            Contact
+                        </h1>
+                        <p className='contact__description'>
+                            GET IN TOUCH WITH US
+                        </p>
                     </Row>
                     <Row lg='6' md='6' className='contact__content'>
                         <Col lg='3' md='3' className='contact__card'>
@@ -26,11 +30,7 @@ class Contact extends Component {
                             <p>manilatourism@manila.ph</p>
                         </Col>
                         <Col lg='3' md='3' className='contact__card'>
-                            <MapPin
-                                width='55'
-                                height='55'
-                                strokeWidth='1'
-                            />
+                            <MapPin width='55' height='55' strokeWidth='1' />
                             <p>Manila City, Philippines</p>
                         </Col>
                         <Col lg='3' md='3' className='contact__card'>
@@ -40,7 +40,9 @@ class Contact extends Component {
                     </Row>
                     <Row lg='6' md='6' className='contact__content'>
                         <Row className='contact__form'>
-                            <h4 className='contact__subtitle'>Doubt? Send us a message</h4>
+                            <h4 className='contact__subtitle'>
+                                Doubt? Send us a message
+                            </h4>
                             <form action='' className='contact__entry'>
                                 <input
                                     type='text'

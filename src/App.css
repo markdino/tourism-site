@@ -7,11 +7,6 @@
     padding: 50px 0px;
 }
 
-
-
-
-
-
 .card {
     margin: 10px 0px;
 }
@@ -49,8 +44,6 @@
         margin: 0px 50px;
     }
 }
-
-
 
 .tour-cover {
     width: 100%;
@@ -113,15 +106,6 @@
 
 #aboutBody {
 }
-
-
-
-
-
-
-
-
-
 
 * {
     transition-duration: 0.3s;

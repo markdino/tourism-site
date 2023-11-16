@@ -82,7 +82,6 @@ class CarouselTour extends Component {
     }
 
     render() {
-
         const { activeIndex } = this.state
 
         const slides = items.map((item, index) => (
@@ -110,7 +109,6 @@ class CarouselTour extends Component {
         ))
 
         return (
-
             <Carousel
                 activeIndex={activeIndex}
                 next={this.next}
@@ -137,7 +135,7 @@ class CarouselTour extends Component {
                     className='locationsCarousel__control locationsCarousel__control--next'
                 />
             </Carousel>
-        );
+        )
     }
 }
 

@@ -16,10 +16,10 @@ const AboutTravel = () => {
             <div className='aboutTravel__container'>
                 <Container>
                     <header className='headerTitle'>
-                        <h1 className='aboutTravel__title'>
-                            About Travel
-                        </h1>
-                        <p className='aboutTravel__info'>Tour Guide & Private Guided Tours</p>
+                        <h1 className='aboutTravel__title'>About Travel</h1>
+                        <p className='aboutTravel__info'>
+                            Tour Guide & Private Guided Tours
+                        </p>
                     </header>
                     <section className='svg-group text-center subComponent'>
                         <Row className='aboutTravel__cards'>

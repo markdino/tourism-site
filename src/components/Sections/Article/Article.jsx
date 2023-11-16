@@ -14,17 +14,18 @@ class Article extends Component {
             <section className='tour-info article'>
                 <Row className='article__section article__section--bg-primary'>
                     <Row className='article__row'>
-                        <Col sm='5' className='article__row__content article__row__col--desc'>
+                        <Col
+                            sm='5'
+                            className='article__row__content article__row__col--desc'
+                        >
                             <h4>Our history begin here</h4>
                             <p>
-                                123 Oceanfront Avenue, Sunshin123
-                                Oceanfront Avenue, Sunshin123
-                                Oceanfront Avenue, Sunshin123
-                                Oceanfront Avenue, Sunshin 123
-                                Oceanfront Avenue, Sunshin 123
-                                Oceanfront Avenue, Sunshin 123
-                                Oceanfront Avenue, Sunshine Cove,
-                                Tropical Paradise
+                                123 Oceanfront Avenue, Sunshin123 Oceanfront
+                                Avenue, Sunshin123 Oceanfront Avenue, Sunshin123
+                                Oceanfront Avenue, Sunshin 123 Oceanfront
+                                Avenue, Sunshin 123 Oceanfront Avenue, Sunshin
+                                123 Oceanfront Avenue, Sunshine Cove, Tropical
+                                Paradise
                             </p>
                             <p>
                                 <b>Info:</b>
@@ -49,17 +50,18 @@ class Article extends Component {
                                 </a>
                             </div>
                         </Col>
-                        <Col sm='6' className='article__row__col article__row__col--desc'>
+                        <Col
+                            sm='6'
+                            className='article__row__col article__row__col--desc'
+                        >
                             <h4>Our history begin here</h4>
                             <p>
-                                123 Oceanfront Avenue, Sunshin123
-                                Oceanfront Avenue, Sunshin123
-                                Oceanfront Avenue, Sunshin123
-                                Oceanfront Avenue, Sunshin 123
-                                Oceanfront Avenue, Sunshin 123
-                                Oceanfront Avenue, Sunshin 123
-                                Oceanfront Avenue, Sunshine Cove,
-                                Tropical Paradise
+                                123 Oceanfront Avenue, Sunshin123 Oceanfront
+                                Avenue, Sunshin123 Oceanfront Avenue, Sunshin123
+                                Oceanfront Avenue, Sunshin 123 Oceanfront
+                                Avenue, Sunshin 123 Oceanfront Avenue, Sunshin
+                                123 Oceanfront Avenue, Sunshine Cove, Tropical
+                                Paradise
                             </p>
                             <p>
                                 <b>Info:</b>
@@ -70,17 +72,18 @@ class Article extends Component {
                 </Row>
                 <Row className='article__section article__section--bg-terciary'>
                     <Row className='article__row'>
-                        <Col sm='5' className='article__row__col article__row__col--desc'>
+                        <Col
+                            sm='5'
+                            className='article__row__col article__row__col--desc'
+                        >
                             <h4>Our history begin here</h4>
                             <p>
-                                123 Oceanfront Avenue, Sunshin123
-                                Oceanfront Avenue, Sunshin123
-                                Oceanfront Avenue, Sunshin123
-                                Oceanfront Avenue, Sunshin 123
-                                Oceanfront Avenue, Sunshin 123
-                                Oceanfront Avenue, Sunshin 123
-                                Oceanfront Avenue, Sunshine Cove,
-                                Tropical Paradise
+                                123 Oceanfront Avenue, Sunshin123 Oceanfront
+                                Avenue, Sunshin123 Oceanfront Avenue, Sunshin123
+                                Oceanfront Avenue, Sunshin 123 Oceanfront
+                                Avenue, Sunshin 123 Oceanfront Avenue, Sunshin
+                                123 Oceanfront Avenue, Sunshine Cove, Tropical
+                                Paradise
                             </p>
                             <p>
                                 <b>Info:</b>
@@ -112,7 +115,7 @@ class Article extends Component {
                 </Row>
                 <Reviews />
             </section>
-        );
+        )
     }
 }
 

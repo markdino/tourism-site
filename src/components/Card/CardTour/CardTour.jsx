@@ -15,7 +15,13 @@ const CardTour = ({ tourcard }) => {
     const { img, alt, title, subtitle } = tourcard
     return (
         <Card className='cardTour'>
-            <CardImg top width='100%' src={img} alt={alt} className='cardTour__image' />
+            <CardImg
+                top
+                width='100%'
+                src={img}
+                alt={alt}
+                className='cardTour__image'
+            />
             <CardBody className='cardTour__content'>
                 <Button
                     outline
@@ -26,7 +32,9 @@ const CardTour = ({ tourcard }) => {
                     Read more
                 </Button>
                 <CardTitle className='cardTour__title'>{title}</CardTitle>
-                <CardSubtitle className='cardTour__description'>{subtitle}</CardSubtitle>
+                <CardSubtitle className='cardTour__description'>
+                    {subtitle}
+                </CardSubtitle>
             </CardBody>
         </Card>
     )

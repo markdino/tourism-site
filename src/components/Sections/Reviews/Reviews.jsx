@@ -56,7 +56,7 @@ class Reviews extends Component {
                     </div>
                 </Container>
             </section>
-        );
+        )
     }
 }
 

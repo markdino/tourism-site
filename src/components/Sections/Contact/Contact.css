@@ -1,6 +1,8 @@
-.contact {}
+.contact {
+}
 
-.contact__container {}
+.contact__container {
+}
 
 .contact__header {
     padding: 3rem 0;
@@ -8,10 +10,11 @@
     justify-content: center;
 }
 
-.contact__description {}
+.contact__description {
+}
 
-.contact__content {}
-
+.contact__content {
+}
 
 .contact__title {
     font-family: 'Poppins', sans-serif;

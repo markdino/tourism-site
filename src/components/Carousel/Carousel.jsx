@@ -5,7 +5,7 @@ import './Carousel.css'
 
 class Carousel extends Component {
     render() {
-        return ;
+        return
     }
 }
 
