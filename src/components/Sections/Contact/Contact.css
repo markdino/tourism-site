@@ -1,22 +1,42 @@
+.contact {}
+
+.contact__container {}
+
+.contact__header {
+    padding: 3rem 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact__description {}
+
+.contact__content {}
+
+
+.contact__title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    width: 100%;
+    text-align: center;
+}
+
+.contact__subtitle {
+    width: 100%;
+    text-align: center;
+    margin: 2rem 0;
+}
+
 .contact__card {
     color: #000;
     padding: 30px;
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
+    text-align: center;
     border: 2px solid transparent;
     background: rgba(255, 255, 255, 0.3);
     column-gap: 2rem;
 }
-
-.contact__subtitle {
-    width: 100%;
-}
-
-.subComponent-lg {
-    padding: 80px 0px;
-}
-
 
 .contact__card:hover {
     border-style: solid;
@@ -24,13 +44,10 @@
     border-color: #e0e0e0;
 }
 
-.contact__title {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 900;
-}
-
 .contact__form {
     height: 100%;
+    width: 100%;
+    padding: 3rem 0;
 }
 
 .contact__entry {
@@ -51,14 +68,5 @@
 
 .contact__button {
     width: 60%;
-}
-
-
-#contactBody {
-    /* background: #98d3a6; */
-    color: rgba(0, 0, 0, 0.7);
-}
-
-.headerTitle p {
-    color: rgba(0, 0, 0, 0.5);
+    background-color: #28a745 !important;
 }

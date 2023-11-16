@@ -72,7 +72,6 @@ class Footer extends Component {
                                 </div>
                             </Col>
                         </Row>
-                        <hr />
                         <br />
                         <p>© Copyright, 2023 | ManTOUR - Manila Tourism PHI</p>
                     </footer>

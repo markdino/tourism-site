@@ -1,8 +1,9 @@
-.packages {}
+.packages {
+    background-color: rgb(245, 245, 245);
+}
 
 .packages__container {
     padding: 5rem 0 4rem;
-    background-color: rgb(245, 245, 245);
 }
 
 .packages__title {

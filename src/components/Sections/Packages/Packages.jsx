@@ -53,48 +53,46 @@ class Packages extends Component {
 
         return (
             <section className='packages'>
-                <div className='packages__container'>
-                    <Container>
-                        <header className='packages__header'>
-                            <h1 className='packages__title'>
-                                Tour Packages
-                            </h1>
-                            <p>A Great Collection of Our Tour Packages</p>
-                        </header>
-                        <section className='packages__body'>
-                            <div className='packages__filter'>
-                                {itemCategories.map((badge, index) => (
-                                    <Badge
-                                        key={index}
-                                        href=''
-                                        color={
-                                            badge === category
-                                                ? 'dark'
-                                                : 'light'
-                                        }
-                                        onClick={() =>
-                                            this.setState({
-                                                category: badge,
-                                            })
-                                        }
-                                        className='packages__badge'
-                                    >
-                                        {badge}
-                                    </Badge>
-                                ))}
-                            </div>
+                <Container className='packages__container'>
+                    <header className='packages__header'>
+                        <h1 className='packages__title'>
+                            Tour Packages
+                        </h1>
+                        <p>A Great Collection of Our Tour Packages</p>
+                    </header>
+                    <section className='packages__body'>
+                        <div className='packages__filter'>
+                            {itemCategories.map((badge, index) => (
+                                <Badge
+                                    key={index}
+                                    href=''
+                                    color={
+                                        badge === category
+                                            ? 'dark'
+                                            : 'light'
+                                    }
+                                    onClick={() =>
+                                        this.setState({
+                                            category: badge,
+                                        })
+                                    }
+                                    className='packages__badge'
+                                >
+                                    {badge}
+                                </Badge>
+                            ))}
+                        </div>
 
-                            <Row className='packages__destines'>
-                                {cards.map((card) => (
-                                    <CardTour
-                                        key={card.id}
-                                        tourcard={card}
-                                    />
-                                ))}
-                            </Row>
-                        </section>
-                    </Container>
-                </div>
+                        <Row className='packages__destines'>
+                            {cards.map((card) => (
+                                <CardTour
+                                    key={card.id}
+                                    tourcard={card}
+                                />
+                            ))}
+                        </Row>
+                    </section>
+                </Container>
             </section>
         )
     }
