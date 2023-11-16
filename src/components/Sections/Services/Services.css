@@ -1,7 +1,18 @@
-.services__wrapped {
+.services__container {
     background: url('../../../assets/images/bg2.jpg') center center;
     background-size: cover;
     background-attachment: fixed;
+    position: relative;
+}
+
+.services__container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .services__card {
@@ -18,9 +29,4 @@
     border-width: 2px;
     border-color: #e0e0e0;
     background: rgba(255, 255, 255, 0.3);
-}
-
-
-#servicesBody {
-    background: rgba(0, 0, 0, 0.7);
 }

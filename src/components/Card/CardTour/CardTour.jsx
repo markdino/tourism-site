@@ -12,22 +12,21 @@ import {
 import './CardTour.css'
 
 const CardTour = ({ tourcard }) => {
-    console.log(')000000', tourcard)
     const { img, alt, title, subtitle } = tourcard
     return (
         <Card className='cardTour'>
-            <CardImg top width='100%' src={img} alt={alt} />
-            <CardBody>
+            <CardImg top width='100%' src={img} alt={alt} className='cardTour__image' />
+            <CardBody className='cardTour__content'>
                 <Button
                     outline
                     color='secondary'
-                    className='float-right'
+                    className='cardTour__button'
                     href='tour'
                 >
                     Read more
                 </Button>
-                <CardTitle>{title}</CardTitle>
-                <CardSubtitle>{subtitle}</CardSubtitle>
+                <CardTitle className='cardTour__title'>{title}</CardTitle>
+                <CardSubtitle className='cardTour__description'>{subtitle}</CardSubtitle>
             </CardBody>
         </Card>
     )
