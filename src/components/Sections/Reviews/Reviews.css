@@ -1,6 +1,7 @@
 .reviews {
     background-color: #f9f9f9;
     padding: 40px 0;
+    width: 100%;
 }
 
 .reviews__container {
