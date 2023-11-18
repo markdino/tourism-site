@@ -1,0 +1,64 @@
+.article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.article__section {
+    width: 100%;
+    padding: 3rem 0 6rem;
+    justify-content: center;
+}
+.article__section:first-child {
+    padding-top: 10rem;
+}
+
+.article__section--bg-primary {
+    background-color: #e1e1e1;
+}
+
+.article__section--bg-secundary {
+    background-color: #e1e1e1;
+}
+
+.article__section--bg-terciary {
+    background-color: #e1e1e1;
+}
+
+.article__section--bg-fouth {
+}
+
+.article__row {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.article__row__col {
+}
+
+.article__row__content {
+}
+
+.article__row__col--desc h4 {
+    font-size: 3rem;
+    font-family: 'Poppins';
+    font-weight: 900;
+}
+.article__row__col--desc p {
+}
+.article__row__col--desc {
+    flex-wrap: wrap;
+    align-items: stretch;
+    height: 100%;
+    display: inline-flex;
+}
+
+.tour-gallery {
+}
+
+.tour-gallery--first {
+}
+
+.article__photo {
+    max-width: 100%;
+}

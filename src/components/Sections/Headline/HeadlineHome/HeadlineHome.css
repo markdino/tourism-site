@@ -1,0 +1,41 @@
+.headlineHome {
+    color: #fff;
+    height: 100vh;
+}
+
+.headlineHome__container {
+    height: 100vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.headlineHome__wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    width: 100%;
+    position: absolute;
+    top: 40vh;
+}
+
+.headlineHome__text {
+    text-align: left;
+    margin: 0 auto;
+    z-index: 10003;
+}
+
+.headlineHome__title {
+    font-size: 6em;
+    margin-bottom: 10px;
+}
+
+.headlineHome__subtitle {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.headlineHome__button {
+    margin-top: 20px;
+}

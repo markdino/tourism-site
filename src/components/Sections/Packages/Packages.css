@@ -1,0 +1,50 @@
+.packages {
+    background-color: rgb(245, 245, 245);
+}
+
+.packages__container {
+    padding: 5rem 0 4rem;
+}
+
+.packages__title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+
+.packages__header {
+}
+
+.packages__title {
+}
+
+.packages__body {
+}
+
+.packages__filter {
+    display: inline-flex;
+    column-gap: 1rem;
+}
+
+.packages__badge {
+    font-size: 0.9rem !important;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: 500 !important;
+}
+
+.packages__destines {
+    padding: 2rem 0;
+    gap: 1rem;
+}
+
+.packages__cardTour {
+}
+
+.packages__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subComponent-lg {
+    padding: 80px 0px;
+}
