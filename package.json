@@ -32,6 +32,5 @@
     ],
     "devDependencies": {
         "prettier": "^3.1.0"
-    },
-    "proxy": "https://api.pexels.com/v1"
+    }
 }
