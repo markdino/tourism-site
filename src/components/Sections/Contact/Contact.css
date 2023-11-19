@@ -1,0 +1,75 @@
+.contact {
+}
+
+.contact__container {
+}
+
+.contact__header {
+    padding: 3rem 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact__description {
+}
+
+.contact__content {
+}
+
+.contact__title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    width: 100%;
+    text-align: center;
+}
+
+.contact__subtitle {
+    width: 100%;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.contact__card {
+    color: #000;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    text-align: center;
+    border: 2px solid transparent;
+    background: rgba(255, 255, 255, 0.3);
+    column-gap: 2rem;
+}
+
+.contact__card:hover {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #e0e0e0;
+}
+
+.contact__form {
+    height: 100%;
+    width: 100%;
+    padding: 3rem 0;
+}
+
+.contact__entry {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.contact__input {
+    width: 60%;
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: 1px solid gray;
+}
+
+.contact__button {
+    width: 60%;
+    background-color: #28a745 !important;
+}

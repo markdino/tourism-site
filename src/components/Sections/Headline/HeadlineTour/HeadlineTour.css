@@ -1,0 +1,21 @@
+.headlineTour {
+}
+.headlineTour__name {
+    position: absolute;
+    bottom: 8rem;
+    background-color: #2a2929ad;
+    left: calc((100% - 600px) / 2);
+    padding: 2rem 3rem;
+    transform: translateX(-50%);
+}
+.headlineTour__title {
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 4rem;
+    font-weight: 900;
+}
+.headlineTour__subtitle {
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 1rem;
+}

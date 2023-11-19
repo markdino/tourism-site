@@ -1,0 +1,33 @@
+.footer__text {
+    font-family: 'Nunito', sans-serif;
+    line-height: 2rem;
+    margin: 0;
+}
+
+.footer__content {
+    padding: 3rem 0 0;
+}
+
+.footer__social-card {
+}
+
+.footer__social-cards {
+    justify-content: center;
+}
+
+.subComponent-lg {
+    padding: 80px 0px;
+}
+#footerBody {
+    background: #f1f1f1;
+    /* background-image: linear-gradient(to bottom, #abdee7 , #1299b0); */
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#footerBody a {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#footerBody a:hover {
+    color: rgba(255, 255, 255, 0.6);
+}

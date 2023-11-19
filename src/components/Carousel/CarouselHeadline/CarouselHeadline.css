@@ -1,0 +1,22 @@
+.carouselHeadline__carousel {
+    height: 100vh;
+}
+.carouselHeadline__indicators {
+}
+.carouselHeadline__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+}
+.carouselHeadline__item {
+}
+.carouselHeadline__item--active {
+}
+.carouselHeadline__image {
+    max-height: 100vh;
+}
+.carouselHeadline__caption {
+}

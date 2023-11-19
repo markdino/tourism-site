@@ -1,0 +1,18 @@
+.aboutTravel__title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+
+.aboutTravel__cards {
+    padding: 0;
+}
+
+.aboutTravel__card {
+    padding: 0;
+}
+
+.aboutTravel__container {
+    padding: 6rem 0 3rem;
+    background: #f1f1f1;
+    color: #2b2b2b;
+}

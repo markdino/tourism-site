@@ -1,0 +1,33 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 80,
+  "tabWidth": 2,
+  "overrides": [
+    {
+      "files": ["*.js", "*.jsx"],
+      "options": {
+        "semi": true,
+        "singleQuote": false,
+        "trailingComma": "none"
+      }
+    },
+    {
+      "files": ["*.css"],
+      "options": {
+        "singleQuote": true,
+        "trailingComma": "none"
+      }
+    },
+    {
+      "files": ["*.png", "*.jpg", "*.gif"],
+      "options": {
+        "singleQuote": true,
+        "trailingComma": "none"
+      }
+    }
+  ],
+  "jsxSingleQuote": false,
+  "jsxBracketSameLine": false
+}
