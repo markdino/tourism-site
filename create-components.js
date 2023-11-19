@@ -1,6 +1,5 @@
 /** @format */
 
-// create-components.js
 const { execSync } = require('child_process')
 
 const components = [
