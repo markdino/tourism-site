@@ -3,7 +3,6 @@
 import axios from 'axios'
 
 const API_KEY = process.env.API_KEY
-const BASE_URL = 'https://api.pexels.com/v1/'
 
 const request = async (method, endpoint) => {
     try {
